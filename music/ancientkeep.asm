@@ -6,7 +6,7 @@ Music_AncientKeep:
 	channel 4, Music_AncientKeep_Ch4
 
 Music_AncientKeep_Ch1:
-	tempo 146
+	tempo 145
 	volume 7, 7
 	duty_cycle 0
 	vibrato 0, 6, 0
@@ -98,7 +98,7 @@ Music_AncientKeep_Ch1:
 	note D_, 2
 	sound_call .sub3
 	sound_loop 2, .loop1
-	tempo 162
+	tempo 161
 .loop2:
 	octave 2
 	note F_, 2
@@ -348,7 +348,7 @@ Music_AncientKeep_Ch1:
 	octave 3
 	note G_, 2
 	note A_, 2
-	tempo 158
+	tempo 157
 	octave 2
 	note D_, 2
 	octave 3
@@ -357,13 +357,13 @@ Music_AncientKeep_Ch1:
 	note F_, 2
 	octave 2
 	note D_, 2
-	tempo 154
+	tempo 153
 	octave 3
 	note E_, 2
 	note A_, 2
-	tempo 150
+	tempo 149
 	note E_, 2
-	tempo 148
+	tempo 147
 .loop6:
 	octave 2
 	note D_, 2
@@ -379,7 +379,7 @@ Music_AncientKeep_Ch1:
 	note D_, 2
 	octave 3
 	note F_, 2
-	tempo 146
+	tempo 145
 	sound_loop 2, .loop6
 	sound_jump .mainloop
 
