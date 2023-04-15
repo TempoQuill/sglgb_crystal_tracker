@@ -12,8 +12,8 @@ Music_AncientKeep_Ch1:
 	vibrato 0, 6, 0
 	stereo_panning TRUE, TRUE
 	note_type 8, 1, 7
-	note __, 16
-	note __, 3
+	rest 16
+	rest 3
 	octave 1
 	note C_, 1
 	note C#, 1
@@ -319,7 +319,7 @@ Music_AncientKeep_Ch1:
 	note G_, 2
 	note E_, 2
 	note F_, 4
-	note __, 4
+	rest 4
 	sound_call .sub5
 	octave 1
 	note A_, 1
@@ -548,26 +548,26 @@ Music_AncientKeep_Ch2:
 	note_type 6, 12, 3
 	octave 1
 	note A_, 6
-	note __, 6
+	rest 6
 	octave 2
 	note E_, 7
-	note __, 1
+	rest 1
 	note A_, 3
-	note __, 1
+	rest 1
 	note E_, 4
 	note C_, 4
 	octave 1
 	note A_, 8
-	note __, 4
+	rest 4
 	octave 2
 	note E_, 5
-	note __, 3
+	rest 3
 	note A_, 4
 	note E_, 4
 	note C_, 4
 	octave 1
 	note A_, 10
-	note __, 2
+	rest 2
 	octave 2
 	note F_, 8
 	note A_, 4
@@ -575,10 +575,10 @@ Music_AncientKeep_Ch2:
 	note D_, 4
 	octave 1
 	note A_, 8
-	note __, 4
+	rest 4
 	octave 2
 	note F_, 6
-	note __, 2
+	rest 2
 	note A_, 4
 	note F_, 4
 	note D_, 4
@@ -591,16 +591,16 @@ Music_AncientKeep_Ch2:
 	note E_, 4
 	octave 1
 	note A_, 10
-	note __, 2
+	rest 2
 	octave 2
 	note E_, 7
-	note __, 1
+	rest 1
 	note G#, 4
 	note E_, 4
 	note C_, 4
 	octave 1
 	note A_, 8
-	note __, 4
+	rest 4
 	octave 2
 	note E_, 8
 	note A_, 4
@@ -608,18 +608,18 @@ Music_AncientKeep_Ch2:
 	note C_, 4
 	octave 1
 	note A_, 8
-	note __, 4
+	rest 4
 	octave 2
 	note A_, 6
-	note __, 2
+	rest 2
 	note E_, 4
 	note C_, 4
 	octave 1
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note F_, 9
-	note __, 3
+	rest 3
 	octave 2
 	note C_, 8
 	note F_, 4
@@ -634,10 +634,10 @@ Music_AncientKeep_Ch2:
 	note C_, 4
 	note F_, 4
 	note C_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 10
-	note __, 2
+	rest 2
 	octave 2
 	note E_, 8
 	note A_, 4
@@ -645,37 +645,37 @@ Music_AncientKeep_Ch2:
 	note C_, 4
 	octave 1
 	note A_, 8
-	note __, 4
+	rest 4
 	octave 2
 	note E_, 4
-	note __, 4
+	rest 4
 	note A_, 4
 	note E_, 4
 	note C_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note F_, 12
 	octave 2
 	note C_, 6
-	note __, 2
+	rest 2
 	note F_, 4
 	note C_, 4
 	octave 1
 	note A_, 4
 	note F_, 9
-	note __, 3
+	rest 3
 	octave 2
 	note C_, 4
 	note F_, 7
-	note __, 1
+	rest 1
 	note C_, 4
 	octave 1
 	note A_, 3
-	note __, 1
+	rest 1
 	note E_, 11
-	note __, 1
+	rest 1
 	note B_, 7
-	note __, 1
+	rest 1
 	octave 2
 	note E_, 4
 	octave 1
@@ -698,90 +698,90 @@ Music_AncientKeep_Ch2:
 	note D_, 4
 	octave 2
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 1
-	note __, 1
+	rest 1
 	note A_, 2
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note G_, 4
 	octave 2
 	note G_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note G_, 4
 	octave 2
 	note G_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
@@ -791,53 +791,53 @@ bucle42_45$:
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 2
 	note C_, 4
 	octave 3
 	note C_, 1
-	note __, 1
+	rest 1
 	note C_, 2
 	octave 1
 	note A#, 4
 	octave 2
 	note A#, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 3
 	note C_, 4
 	octave 2
 	note C_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A#, 4
 	octave 2
 	note A#, 2
-	note __, 2
+	rest 2
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 2
-	note __, 2
+	rest 2
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 2
 	note C_, 4
 	octave 3
 	note C_, 1
-	note __, 1
+	rest 1
 	note C_, 2
 	octave 1
 	note A#, 4
@@ -847,24 +847,24 @@ bucle42_45$:
 	note A_, 4
 	octave 2
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 2
 	note D_, 4
 	octave 3
 	note D_, 2
-	note __, 2
+	rest 2
 	octave 3
 	note C_, 4
 	octave 2
 	note C_, 2
-	note __, 2
+	rest 2
 	octave 1
 	note A#, 4
 	octave 2
 	note A#, 2
-	note __, 2
+	rest 2
 	note A_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	sound_loop 2, bucle42_45$
@@ -872,14 +872,14 @@ bucle42_45$:
 	note G#, 4
 	octave 2
 	note D_, 3
-	note __, 1
+	rest 1
 	note F_, 2
-	note __, 2
+	rest 2
 	note G#, 8
 	note B_, 4
 	note G#, 4
 	note F_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 4
 	octave 2
@@ -894,11 +894,11 @@ bucle42_45$:
 	octave 1
 	note A_, 8
 	note F_, 5
-	note __, 3
+	rest 3
 	note D_, 8
 	octave 2
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 1
 	note A_, 8
 	note F_, 4
@@ -1023,20 +1023,20 @@ bucle54$:
 	note D_, 12
 	note_type 6, 12, 3
 	note D_, 6
-	note __, 6
+	rest 6
 	note A_, 7
-	note __, 1
+	rest 1
 	octave 3
 	note D_, 3
-	note __, 1
+	rest 1
 	octave 2
 	note A_, 4
 	note F_, 4
 .loop6:
 	note D_, 8
-	note __, 4
+	rest 4
 	note A_, 5
-	note __, 3
+	rest 3
 	octave 3
 	note D_, 4
 	octave 2
@@ -1049,7 +1049,7 @@ Music_AncientKeep_Ch3:
 	vibrato 0, 4, 0
 	stereo_panning TRUE, TRUE
 	note_type 8, 3, 5
-	note __, 15
+	rest 15
 	octave 1
 	note C_, 1
 	note C#, 1
@@ -1553,10 +1553,10 @@ bucle62_2$:
 Music_AncientKeep_Ch4:
 	toggle_noise 2
 	drum_speed 12
-	note __, 16
-	note __, 16
-	note __, 16
-	note __, 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 .mainloop:
 bucle5_6$:
 	sound_call .sub1
