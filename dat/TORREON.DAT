@@ -24,6 +24,7 @@ m_torreonantigua1:
 	db	$e5,$77
 	db	$db,$00
 	db	$e1,$00,$60
+	db	$ef,$ff
 ; P1-1
 	db	$d8,$8,$17
 	db	$0f
@@ -80,6 +81,7 @@ m_torreonantigua1:
 bucle$:
 	db	$e1,$00,$40
 bucle5_20$:
+	db	$ef,$f0
 ; P1-5
 	db	$dc,$92
 	db	$fe
@@ -423,6 +425,7 @@ m_torreonantigua2:
 ;----------------------------------------
 	db	$e1,$00,$20
 	db	$db,$00
+	db	$ef,$ff
 ; P2-1
 	db	$d8,$8,$17
 	db	$d7,$30
@@ -915,6 +918,7 @@ bucle68$:
 m_torreonantigua3:
 ;----------------------------------------
 	db	$e1,$00,$40
+	db	$ef,$ff
 ; P3-1
 	db	$d8,$8,$35
 	db	$0e
@@ -1180,9 +1184,7 @@ bucle42_45$:
 	db	$33
 	db	$23
 ; P3-52
-	db	$39
-	db	$33
-	db	$31
+	db	$3f
 ; P3-53
 	db	$3f
 ; P3-54
@@ -1370,11 +1372,13 @@ bucle5_6$:
 ; P6-5
 	db	$fe
 	dw	tam5$
+	db	$ef,$0f
 	db	$20
 	db	$20
 ; P6-6
 	db	$fe
 	dw	tam5$
+	db	$ef,$0f
 	db	$c1
 ; P4-7
 	db	$fd,16
@@ -1397,6 +1401,7 @@ bucle37$:
 ; P4-37
 	db	$fe
 	dw	tam5$
+	db	$ef,$0f
 	db	$20
 	db	$20
 ; P4-38
@@ -1409,19 +1414,30 @@ bucle42_43$:
 ; P6-42
 	db	$fe
 	dw	tam42$
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$c0
 ; P6-43
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$20
 	db	$fe
 	dw	tam42$
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$80
 	db	$80
 ; P4-44
@@ -1433,6 +1449,7 @@ bucle50$:
 ; P6-50
 	db	$fe
 	dw	tam50$
+	db	$ef,$0f
 	db	$20
 	db	$60
 ; P6-51
@@ -1442,6 +1459,7 @@ bucle52$:
 ; P6-52
 	db	$fe
 	dw	tam50$
+	db	$ef,$ff
 	db	$40
 	db	$60
 ; P6-53
@@ -1474,48 +1492,73 @@ bucle54$:
 	db	$fc
 	dw	bucle$
 tam5$:
+	db	$ef,$ff
 	db	$41
+	db	$ef,$0f
 	db	$21
+	db	$ef,$ff
 	db	$81
+	db	$ef,$0f
 	db	$21
+	db	$ef,$ff
 	db	$41
+	db	$ef,$0f
 	db	$21
+	db	$ef,$ff
 	db	$81
 	db	$ff
 tam42$:
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$20
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
 	db	$ff
 tam50$:
+	db	$ef,$ff
 	db	$40
 	db	$60
 	db	$40
 	db	$60
+	db	$ef,$0f
 	db	$20
 	db	$60
+	db	$ef,$ff
 	db	$40
 	db	$60
 	db	$80
 	db	$60
+	db	$ef,$0f
 	db	$20
 	db	$60
 	db	$20
 	db	$60
 	db	$ff
 tam54$:
+	db	$ef,$ff
 	db	$40
+	db	$ef,$0f
 	db	$20
 	db	$20
 	db	$20
+	db	$ef,$ff
 	db	$80
+	db	$ef,$0f
 	db	$20
 	db	$20
 	db	$20
