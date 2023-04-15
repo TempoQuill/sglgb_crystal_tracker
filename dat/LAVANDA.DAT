@@ -1,0 +1,570 @@
+;	include	group.def
+;bank3d	group	G_MUSIC4
+;	;
+;	;	lavanda
+;	;
+;	;	Convirtiendo en Sab Ago 21 22:22:49 1999
+;	;
+;	;				por ver 1.01
+;	;
+;	public	muslavanda
+;muslavanda:
+	db	080h
+	dw	lavanda1
+	db	001h
+	dw	lavanda2
+	db	002h
+	dw	lavanda3
+	db	003h
+;----------------------------------------
+lavanda1:
+;----------------------------------------
+	db	$da,$00,$99
+	db	$e5,$77
+; P1-1
+	db	$ef,$ff
+	db	$e1,$06,$24
+	db	$db,$01
+	db	$d8,$c,$b3
+; P1-2
+	db	$0f
+; P1-3
+	db	$0f
+; P1-4
+	db	$0f
+; P1-5
+	db	$0f
+; P1-6
+bucle$:
+	db	$db,$01
+	db	$fe
+	dw	subrutina6_10$
+; P1-11
+	db	$dc,$93
+	db	$d3,$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$93
+	db	$71
+	db	$dc,$43
+	db	$71
+	db	$dc,$93
+	db	$c1
+	db	$dc,$43
+	db	$c1
+	db	$dc,$93
+	db	$a1
+	db	$dc,$43
+	db	$a1
+; P1-12
+	db	$fe
+	dw	subrutina12$
+	db	$dc,$93
+; P1-13
+	db	$dc,$93
+	db	$61
+	db	$dc,$83
+	db	$61
+	db	$dc,$93
+	db	$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$93
+	db	$d4,$c1
+	db	$dc,$43
+	db	$c1
+	db	$dc,$93
+	db	$81
+	db	$dc,$43
+	db	$81
+; P1-14
+	db	$fe
+	dw	subrutina6_10$
+; P1-18
+	db	$dc,$93
+	db	$d3,$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$93
+	db	$81
+	db	$dc,$43
+	db	$81
+	db	$dc,$93
+	db	$c1
+	db	$dc,$43
+	db	$c1
+	db	$dc,$93
+	db	$81
+	db	$dc,$43
+	db	$81
+; P1-20
+	db	$fe
+	dw	subrutina12$
+; P1-21
+	db	$dc,$93
+	db	$d2,$11
+	db	$dc,$43
+	db	$11
+	db	$dc,$93
+	db	$d3,$81
+	db	$dc,$43
+	db	$81
+	db	$dc,$93
+	db	$51
+	db	$dc,$43
+	db	$51
+	db	$dc,$93
+	db	$11
+	db	$dc,$43
+	db	$11
+; P1-22
+	db	$db,$02
+	db	$d5,$61
+	db	$a1
+	db	$d4,$11
+	db	$51
+	db	$61
+	db	$11
+	db	$d5,$a1
+	db	$61
+; P1-23
+subrutina23$:
+	db	$d5,$11
+	db	$51
+	db	$81
+	db	$c1
+	db	$d4,$11
+	db	$d5,$81
+	db	$51
+	db	$11
+; P1-24
+	db	$61
+	db	$a1
+	db	$d4,$11
+	db	$51
+	db	$61
+	db	$11
+	db	$d5,$a1
+	db	$61
+	db	$fd,2
+	dw	subrutina23$
+; P1-25
+; P1-26
+; P1-27
+	db	$71
+	db	$a1
+	db	$d4,$11
+	db	$71
+	db	$a1
+	db	$11
+	db	$d5,$a1
+	db	$71
+; P1-28
+	db	$81
+	db	$d4,$11
+	db	$31
+	db	$61
+	db	$81
+	db	$61
+	db	$31
+	db	$11
+; P1-29
+	db	$d5,$c7
+	db	$c7
+; P1-30
+	db	$fc
+	dw	bucle$
+subrutina6_10$:
+	db	$dc,$83
+	db	$d3,$11
+	db	$dc,$43
+	db	$11
+	db	$dc,$83
+	db	$81
+	db	$dc,$43
+	db	$81
+	db	$dc,$83
+	db	$d2,$11
+	db	$dc,$43
+	db	$11
+	db	$dc,$83
+	db	$d3,$81
+	db	$dc,$43
+	db	$81
+; P1-7
+	db	$dc,$83
+	db	$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$83
+	db	$a1
+	db	$dc,$43
+	db	$a1
+	db	$dc,$83
+	db	$d2,$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$83
+	db	$d3,$a1
+	db	$dc,$43
+	db	$a1
+; P1-8
+	db	$dc,$83
+	db	$51
+	db	$dc,$43
+	db	$51
+	db	$dc,$83
+	db	$c1
+	db	$dc,$43
+	db	$c1
+	db	$dc,$83
+	db	$d2,$51
+	db	$dc,$43
+	db	$51
+	db	$dc,$83
+	db	$d3,$c1
+	db	$dc,$43
+	db	$c1
+; P1-9
+	db	$dc,$83
+	db	$21
+	db	$dc,$43
+	db	$21
+	db	$dc,$83
+	db	$81
+	db	$dc,$43
+	db	$81
+	db	$dc,$83
+	db	$b1
+	db	$dc,$43
+	db	$b1
+	db	$dc,$83
+	db	$81
+	db	$dc,$43
+	db	$81
+; P1-10
+	db	$dc,$83
+	db	$11
+	db	$dc,$43
+	db	$11
+	db	$dc,$83
+	db	$61
+	db	$dc,$43
+	db	$61
+	db	$dc,$83
+	db	$d2,$11
+	db	$dc,$43
+	db	$11
+	db	$dc,$83
+	db	$d3,$61
+	db	$dc,$43
+	db	$61
+	db	$ff
+subrutina12$:
+	db	$dc,$93
+	db	$d3,$81
+	db	$dc,$83
+	db	$81
+	db	$dc,$83
+	db	$61
+	db	$dc,$43
+	db	$61
+	db	$dc,$83
+	db	$31
+	db	$dc,$43
+	db	$31
+	db	$dc,$83
+	db	$81
+	db	$dc,$43
+	db	$81
+	db	$ff
+;----------------------------------------
+lavanda2:
+;----------------------------------------
+; P2-1
+	db	$db,$01
+	db	$e1,$08,$24
+	db	$ef,$ff
+; P2-2
+melodia2$:
+	db	$d8,$c,$a3
+	db	$d3,$11
+	db	$dc,$63
+	db	$11
+	db	$dc,$a3
+	db	$81
+	db	$dc,$63
+	db	$81
+	db	$dc,$a3
+	db	$c1
+	db	$dc,$63
+	db	$c1
+	db	$dc,$a3
+	db	$71
+	db	$dc,$63
+	db	$71
+	db	$fd,3
+	dw	melodia2$
+; P2-3
+; P2-4
+; P2-5
+	db	$dc,$a3
+	db	$11
+	db	$dc,$63
+	db	$11
+	db	$dc,$a3
+	db	$81
+	db	$dc,$63
+	db	$81
+	db	$dc,$a3
+	db	$c1
+	db	$dc,$63
+	db	$c1
+	db	$dc,$a3
+	db	$d2,$31
+	db	$dc,$63
+	db	$31
+; P2-6
+bucle$:
+	db	$db,$02
+	db	$ef,$0f
+	db	$dc,$b5
+	db	$fe
+	dw	melodia6_10$
+; P2-11
+	db	$d6,$73
+	db	$d5,$13
+	db	$73
+	db	$a3
+; P2-12
+	db	$d6,$83
+	db	$d5,$13
+	db	$33
+	db	$83
+; P2-13
+	db	$63
+	db	$33
+	db	$d6,$c3
+	db	$83
+; P2-14
+	db	$fe
+	dw	melodia6_10$
+; P2-11
+	db	$d6,$83
+	db	$d5,$13
+	db	$63
+	db	$83
+; P2-12
+	db	$13
+	db	$63
+	db	$83
+	db	$63
+; P2-13
+	db	$13
+	db	$53
+	db	$83
+	db	$d4,$13
+; P2-22
+	db	$ef,$ff
+	db	$db,$01
+	db	$dc,$b7
+	db	$d6,$6f
+; P2-23
+	db	$1f
+; P2-24
+	db	$6f
+; P2-25
+	db	$1f
+; P2-26
+	db	$6f
+; P2-27
+	db	$7f
+; P2-28
+	db	$8f
+; P2-29
+	db	$d7,$87
+	db	$dc,$57
+	db	$d3,$30
+	db	$60
+	db	$85
+; P2-30
+	db	$fc
+	dw	bucle$
+melodia6_10$:
+	db	$d6,$13
+	db	$83
+	db	$d5,$53
+	db	$d6,$83
+; P2-7
+	db	$33
+	db	$a3
+	db	$d5,$63
+	db	$d6,$a3
+; P2-8
+	db	$53
+	db	$c3
+	db	$d5,$83
+	db	$63
+; P2-9
+	db	$53
+	db	$23
+	db	$d6,$b3
+	db	$83
+; P2-10
+	db	$63
+	db	$d5,$13
+	db	$a3
+	db	$13
+	db	$ff
+;----------------------------------------
+lavanda3:
+;----------------------------------------
+; P3-1
+	db	$e1,$05,$34
+	db	$d8,$c,$17
+	db	$ef,$ff
+; P3-2
+	db	$0f
+; P3-3
+	db	$0f
+; P3-4
+	db	$0f
+; P3-5
+	db	$07
+	db	$d4,$53
+	db	$63
+; P3-6
+bucle$:
+	db	$d4,$83
+	db	$03
+	db	$83
+	db	$03
+; P3-7
+	db	$53
+	db	$03
+	db	$53
+	db	$63
+; P3-8
+	db	$83
+	db	$63
+	db	$53
+	db	$c3
+; P3-9
+	db	$27
+	db	$01
+	db	$21
+	db	$31
+	db	$51
+; P3-10
+	db	$69
+	db	$81
+	db	$61
+	db	$51
+; P3-11
+	db	$37
+	db	$d5,$a3
+	db	$d4,$33
+; P3-12
+	db	$5b
+	db	$61
+	db	$51
+; P3-13
+	db	$3b
+	db	$51
+	db	$61
+; P3-14
+	db	$83
+	db	$03
+	db	$83
+	db	$03
+; P3-15
+	db	$53
+	db	$03
+	db	$53
+	db	$63
+; P3-16
+	db	$83
+	db	$63
+	db	$53
+	db	$c3
+; P3-17
+	db	$27
+	db	$01
+	db	$21
+	db	$31
+	db	$51
+; P3-18
+	db	$69
+	db	$81
+	db	$61
+	db	$51
+; P3-19
+	db	$3b
+	db	$11
+	db	$31
+; P3-20
+	db	$1f
+; P3-21 -aten
+	db	$1b
+	db	$03
+; P3-22
+	db	$e1,$05,$24
+	db	$ef,$f0
+	db	$dc,$23
+	db	$d3,$a1
+	db	$81
+	db	$a1
+	db	$c1
+	db	$d2,$13
+	db	$d3,$83
+; P3-23
+	db	$63
+	db	$53
+	db	$33
+	db	$13
+; P3-24
+	db	$a1
+	db	$81
+	db	$a1
+	db	$c1
+	db	$d2,$13
+	db	$d3,$83
+; P3-25
+	db	$d2,$63
+	db	$d8,$8,$23
+	db	$51
+	db	$61
+	db	$51
+	db	$d8,$c,$23
+	db	$33
+	db	$13
+; P3-26
+	db	$d3,$a1
+	db	$81
+	db	$a1
+	db	$c1
+	db	$d2,$13
+	db	$d3,$83
+; P3-27
+	db	$a1
+	db	$81
+	db	$a1
+	db	$c1
+	db	$d2,$13
+	db	$23
+; P3-28
+	db	$3b
+	db	$13
+; P3-29
+	db	$d3,$cb
+	db	$ef,$ff
+	db	$e1,$05,$34
+	db	$dc,$17
+	db	$d4,$51
+	db	$61
+; P3-30
+	db	$fc
+	dw	bucle$
+;:
+
+

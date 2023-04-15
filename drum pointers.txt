@@ -1,0 +1,22 @@
+cd 4d	Silence
+d1 4d	Kick
+d8 4d	Click
+df 4d	Click + Kick
+e9 4d	Shaker
+f0 4d	Shaker + Kick
+fa 4d	Shaker + Click
+cd 4d	Silence
+04 4e	Hihat
+08 4e	Hihat + Kick
+0f 4e	Hihat + Click
+16 4e	Crash
+26 4e	Hihat + Shaker
+47 4e	Hihat (pitched)
+51 4e	Hihat (pitched) + Kick
+5b 4e	Crash + Kick
+6b 4e	Snare
+78 4e	Hihat + Snare
+7f 4e	Hihat (pitched) + Snare
+8f 4e	Snare + Kick
+9c 4e	Hihat (open)
+ba 4e	Hihat (pitched) + Click

@@ -1,0 +1,13 @@
+03:4000	Introduction
+03:446e	Surely Wood
+03:4872	Fiesta City
+03:4ce0	Snowy Cabin
+03:5121 Galactical Galaxies
+03:5669 Ye Olde Bounty
+03:5f0a Sleepy Rock
+03:69fc Ancient Keep
+03:
+04:4000	(GSC) Tour
+04:4213	(GSC) Lavender Town
+04:44b5 (GSC) SS Aqua
+04:4c59

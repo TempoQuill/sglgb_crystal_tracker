@@ -1,0 +1,1687 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	la_generosidad_antigua
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	musgenerosidad
+;musgenerosidad:
+	db	0c0h
+	dw	m_generosidad1
+	db	001h
+	dw	m_generosidad2
+	db	002h
+	dw	m_generosidad3
+	db	003h
+	dw	m_generosidad4
+;----------------------------------------
+m_generosidad1:
+;----------------------------------------
+	db	$da,$00,$8a
+	db	$e5,$77
+	db	$db,$02
+	db	$ef,$f0
+; P1-1	-deslizar
+	db	$d8,$8,$c0
+	db	$d6,$c1
+	db	$d5,$10
+	db	$dc,$80
+	db	$20
+	db	$31
+	db	$40
+	db	$dc,$50
+	db	$50
+	db	$61
+	db	$70
+	db	$80
+	db	$dc,$30
+	db	$91
+	db	$a0
+	db	$b0
+	db	$c0
+	db	$06
+; P1-2
+	db	$ef,$0f
+	db	$e1,$0,$33
+	db	$d8,$c,$92
+	db	$d4,$10
+	db	$00
+	db	$10
+	db	$10
+	db	$10
+	db	$00
+	db	$10
+	db	$00
+	db	$d5,$b0
+	db	$00
+	db	$b0
+	db	$b0
+	db	$b0
+	db	$00
+	db	$b0
+	db	$00
+; P1-3
+	db	$90
+	db	$00
+	db	$90
+	db	$90
+	db	$90
+	db	$00
+	db	$d4,$10
+	db	$00
+	db	$ef,$f0
+	db	$e1,$0,$00
+	db	$dc,$81
+	db	$80
+	db	$90
+	db	$a0
+	db	$b0
+	db	$c1
+	db	$d3,$80
+	db	$70
+bucle$:
+	db	$ef,$0f
+	db	$e1,$0,$33
+	db	$dc,$92
+bucle4$:
+; P1-4	-sección nueva
+	db	$01
+	db	$d5,$81
+	db	$01
+	db	$81
+	db	$01
+	db	$81
+	db	$01
+	db	$81
+; P1-5
+	db	$fd,8
+	dw	bucle4$
+; P1-6
+; P1-7
+; P1-8
+; P1-9
+; P1-10
+; P1-11
+bucle12_15$:
+; P1-12
+	db	$01
+	db	$d5,$81
+	db	$01
+	db	$d4,$11
+	db	$01
+	db	$51
+	db	$01
+	db	$51
+; P1-13
+	db	$01
+	db	$d5,$a1
+	db	$01
+	db	$d4,$31
+	db	$01
+	db	$31
+	db	$01
+	db	$31
+; P1-14
+	db	$01
+	db	$11
+	db	$01
+	db	$51
+	db	$01
+	db	$11
+	db	$01
+	db	$d5,$c1
+; P1-15
+	db	$d4,$61
+	db	$81
+	db	$a1
+	db	$c1
+	db	$81
+	db	$51
+	db	$53
+; P1-16
+	db	$fd,2
+	dw	bucle12_15$
+; P1-20	-transición
+	db	$ef,$f0
+	db	$e1,$0,$00
+	db	$dc,$81
+	db	$d3,$10
+	db	$20
+	db	$30
+	db	$40
+	db	$50
+	db	$60
+	db	$70
+	db	$80
+	db	$90
+	db	$a0
+	db	$b0
+	db	$c0
+	db	$d2,$11
+	db	$d3,$b1
+; P1-21
+	db	$a1
+	db	$90
+	db	$a0
+	db	$51
+	db	$21
+	db	$d4,$a3
+	db	$d3,$a3
+bucle22_29$:
+	db	$ef,$0f
+	db	$e1,$0,$33
+	db	$dc,$92
+; P1-22	-sección nueva
+	db	$01
+	db	$d4,$a0
+	db	$a0
+	db	$01
+	db	$a1
+	db	$01
+	db	$a0
+	db	$a0
+	db	$01
+	db	$a1
+; P1-23
+	db	$01
+	db	$a0
+	db	$a0
+	db	$01
+	db	$a0
+	db	$a0
+	db	$fe
+	dw	subrutina23$
+; P1-24
+	db	$01
+	db	$90
+	db	$90
+	db	$01
+	db	$91
+	db	$fe
+	dw	subrutina23$
+; P1-25
+	db	$fe
+	dw	subrutina23$
+	db	$fe
+	dw	subrutina25$
+; P1-26
+	db	$fe
+	dw	subrutina25$
+	db	$fe
+	dw	subrutina25$
+; P1-27
+	db	$01
+	db	$a0
+	db	$a0
+	db	$01
+	db	$a0
+	db	$a0
+	db	$fe
+	dw	subrutina25$
+; P1-28
+	db	$fe
+	dw	subrutina25$
+	db	$fe
+	dw	subrutina25$
+; P1-29
+	db	$fe
+	dw	subrutina23$
+	db	$fe
+	dw	subrutina25$
+; P1-30
+	db	$fd,2
+	dw	bucle22_29$
+; P1-38	-transición
+	db	$ef,$f0
+	db	$e1,$0,$00
+	db	$dc,$81
+	db	$d5,$a0
+	db	$d4,$50
+	db	$80
+	db	$a0
+	db	$d3,$20
+	db	$50
+	db	$20
+	db	$50
+	db	$a0
+	db	$90
+	db	$80
+	db	$70
+	db	$60
+	db	$50
+	db	$40
+	db	$10
+; P1-39
+	db	$d4,$c0
+	db	$b0
+	db	$a0
+	db	$90
+	db	$80
+	db	$c0
+	db	$d3,$30
+	db	$80
+	db	$c0
+	db	$80
+	db	$30
+	db	$d4,$c0
+	db	$83
+; P1-40	-sección nueva
+	db	$fe
+	dw	subrutina40$
+	db	$81
+	db	$91
+	db	$81
+; P1-41
+	db	$fe
+	dw	subrutina41_43$
+; P1-44
+	db	$fe
+	dw	subrutina40$
+	db	$61
+	db	$41
+	db	$81
+; P1-45
+	db	$91
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$91
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d2,$11
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$91
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$91
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$91
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$81
+	db	$61
+; P1-46
+	db	$41
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$81
+	db	$01
+	db	$81
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$81
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$61
+	db	$01
+	db	$61
+; P1-47
+	db	$fe
+	dw	subrutina47$
+; P1-48
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$81
+	db	$41
+	db	$61
+	db	$83
+	db	$91
+	db	$81
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$41
+; P1-49
+	db	$fe
+	dw	subrutina41_43$
+; P1-52
+	db	$fe
+	dw	subrutina40$
+	db	$81
+	db	$91
+	db	$b1
+; P1-53
+	db	$d2,$11
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$91
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$b1
+	db	$93
+	db	$91
+	db	$d2,$11
+	db	$d3,$b1
+; P1-54
+	db	$81
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$81
+	db	$01
+	db	$81
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$61
+	db	$61
+	db	$81
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$61
+; P1-55
+	db	$fe
+	dw	subrutina47$
+; P1-56
+	db	$fc
+	dw	bucle$
+subrutina23$:
+	db	$01
+	db	$90
+	db	$90
+	db	$91
+	db	$91
+	db	$ff
+subrutina25$:
+	db	$01
+	db	$a0
+	db	$a0
+	db	$a1
+	db	$a1
+	db	$ff
+subrutina40$:
+	db	$ef,$0f
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$81
+	db	$61
+	db	$41
+	db	$83
+	db	$ff
+subrutina41_43$:
+	db	$e1,$00,$10
+	db	$db,$03
+; P1-41
+	db	$dc,$b2
+	db	$d3,$61
+	db	$33
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$31
+	db	$01
+	db	$61
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$61
+	db	$81
+; P1-42
+	db	$91
+	db	$81
+	db	$61
+	db	$93
+	db	$81
+	db	$61
+	db	$91
+; P1-43
+	db	$81
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$41
+	db	$01
+	db	$41
+	db	$01
+	db	$41
+	db	$01
+	db	$41
+	db	$ff
+subrutina47$:
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$41
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$41
+	db	$01
+	db	$41
+	db	$e1,$00,$10
+	db	$db,$03
+	db	$dc,$b2
+	db	$d3,$31
+	db	$e1,$0,$00
+	db	$db,$02
+	db	$dc,$92
+	db	$d4,$31
+	db	$01
+	db	$31
+	db	$ff
+;----------------------------------------
+m_generosidad2:
+;----------------------------------------
+	db	$db,$02
+	db	$ef,$f0
+; P2-1	-deslizar
+	db	$d8,$8,$c0
+	db	$d5,$31
+	db	$40
+	db	$dc,$80
+	db	$50
+	db	$61
+	db	$70
+	db	$dc,$50
+	db	$80
+	db	$91
+	db	$a0
+	db	$b0
+	db	$dc,$30
+	db	$c1
+	db	$d4,$10
+	db	$20
+	db	$30
+	db	$06
+; P2-2
+	db	$ef,$0f
+	db	$e1,$0,$33
+	db	$d8,$c,$92
+	db	$50
+	db	$00
+	db	$d5,$80
+	db	$80
+	db	$80
+	db	$00
+	db	$d4,$50
+	db	$00
+	db	$30
+	db	$00
+	db	$d5,$60
+	db	$60
+	db	$60
+	db	$00
+	db	$d4,$30
+	db	$00
+; P2-3
+	db	$10
+	db	$00
+	db	$d5,$40
+	db	$40
+	db	$40
+	db	$00
+	db	$40
+	db	$00
+	db	$33
+	db	$c1
+	db	$ef,$f0
+	db	$e1,$1,$34
+	db	$db,$01
+	db	$dc,$e1
+	db	$d4,$80
+	db	$70
+bucle$:
+	db	$ef,$f0
+; P2-4	-sección nueva
+	db	$fe
+	dw	melodia4_5$
+	db	$34
+	db	$dc,$e1
+	db	$60
+	db	$50
+; P2-6
+	db	$fe
+	dw	melodia6_7$
+	db	$55
+	db	$dc,$e1
+	db	$80
+	db	$70
+; P2-8
+	db	$fe
+	dw	melodia4_5$
+	db	$33
+	db	$61
+	db	$dc,$e1
+	db	$50
+; P2-10
+	db	$fe
+	dw	melodia6_7$
+	db	$17
+bucle12_15$:
+	db	$ef,$ff
+	db	$e1,$00,$00
+	db	$db,$03
+; P2-12
+	db	$dc,$d1
+	db	$d3,$11
+	db	$d4,$11
+	db	$11
+	db	$80
+	db	$60
+	db	$50
+	db	$80
+	db	$d3,$11
+	db	$10
+	db	$50
+	db	$30
+	db	$10
+; P2-13
+	db	$31
+	db	$d4,$31
+	db	$31
+	db	$d3,$30
+	db	$10
+	db	$d4,$c0
+	db	$d3,$30
+	db	$81
+	db	$81
+	db	$a0
+	db	$c0
+; P2-14
+	db	$d2,$10
+	db	$d3,$c0
+	db	$a0
+	db	$80
+	db	$a0
+	db	$80
+	db	$60
+	db	$50
+	db	$60
+	db	$50
+	db	$30
+	db	$10
+	db	$10
+	db	$d4,$c0
+	db	$a0
+	db	$80
+; P2-15
+	db	$a0
+	db	$d3,$10
+	db	$d4,$c0
+	db	$d3,$30
+	db	$10
+	db	$50
+	db	$30
+	db	$60
+	db	$51
+	db	$11
+	db	$13
+; P2-16
+	db	$fd,2
+	dw	bucle12_15$
+; P2-20	-transición
+	db	$e1,$1,$34
+	db	$db,$01
+	db	$dc,$c7
+	db	$d4,$1b
+	db	$d5,$b3
+; P2-21
+	db	$af
+bucle22_29$:
+; P2-22	-sección nueva
+	db	$e1,$00,$00
+	db	$db,$03
+	db	$dc,$d1
+	db	$d3,$51
+	db	$20
+	db	$d4,$c0
+	db	$d3,$21
+	db	$d4,$a0
+	db	$90
+	db	$a1
+	db	$51
+	db	$51
+	db	$a1
+; P2-23
+	db	$a0
+	db	$c0
+	db	$d3,$20
+	db	$30
+	db	$50
+	db	$70
+	db	$90
+	db	$a0
+	db	$95
+	db	$90
+	db	$70
+; P2-24
+	db	$91
+	db	$50
+	db	$40
+	db	$51
+	db	$d4,$c0
+	db	$b0
+	db	$c1
+	db	$91
+	db	$91
+	db	$90
+	db	$70
+; P2-25
+	db	$50
+	db	$70
+	db	$90
+	db	$a0
+	db	$c0
+	db	$d3,$70
+	db	$50
+	db	$30
+	db	$25
+	db	$50
+	db	$40
+; P2-26
+	db	$51
+	db	$21
+	db	$21
+	db	$20
+	db	$d4,$c0
+	db	$a1
+	db	$d3,$21
+	db	$21
+	db	$20
+	db	$d4,$c0
+; P2-27
+	db	$a0
+	db	$c0
+	db	$d3,$20
+	db	$30
+	db	$50
+	db	$70
+	db	$80
+	db	$a0
+	db	$75
+	db	$a0
+	db	$90
+; P2-28
+	db	$a1
+	db	$71
+	db	$71
+	db	$a0
+	db	$90
+	db	$a1
+	db	$51
+	db	$51
+	db	$50
+	db	$70
+; P2-29
+	db	$50
+	db	$30
+	db	$20
+	db	$30
+	db	$50
+	db	$30
+	db	$20
+	db	$d4,$c0
+	db	$a7
+; P2-30
+	db	$fd,2
+	dw	bucle22_29$
+; P2-38	-transición
+	db	$e1,$1,$34
+	db	$db,$01
+	db	$dc,$c7
+	db	$d4,$2b
+	db	$13
+; P2-39
+	db	$d5,$cf
+; P2-40	-sección nueva
+	db	$d4,$41
+	db	$31
+	db	$11
+	db	$43
+	db	$31
+	db	$11
+	db	$41
+; P2-41
+	db	$39
+	db	$d5,$81
+	db	$c1
+	db	$d4,$31
+; P2-42
+	db	$61
+	db	$41
+	db	$31
+	db	$63
+	db	$41
+	db	$31
+	db	$61
+; P2-43
+	db	$49
+	db	$d5,$81
+	db	$d4,$11
+	db	$31
+; P2-44
+	db	$41
+	db	$31
+	db	$11
+	db	$43
+	db	$11
+	db	$31
+	db	$41
+; P2-45
+	db	$63
+	db	$93
+	db	$d3,$13
+	db	$d4,$b1
+	db	$91
+; P2-46
+	db	$81
+	db	$61
+	db	$41
+	db	$33
+	db	$41
+	db	$33
+; P2-47
+	db	$17
+	db	$d5,$c1
+	db	$81
+	db	$d4,$11
+	db	$31
+; P2-48
+	db	$41
+	db	$31
+	db	$11
+	db	$43
+	db	$31
+	db	$13
+; P2-49
+	db	$d5,$c9
+	db	$81
+	db	$c1
+	db	$d4,$31
+; P2-50
+	db	$61
+	db	$41
+	db	$31
+	db	$63
+	db	$41
+	db	$31
+	db	$41
+; P2-51
+	db	$19
+	db	$d5,$81
+	db	$d4,$11
+	db	$31
+; P2-52
+	db	$41
+	db	$31
+	db	$11
+	db	$31
+	db	$41
+	db	$11
+	db	$41
+	db	$81
+; P2-53
+	db	$93
+	db	$81
+	db	$61
+	db	$01
+	db	$61
+	db	$81
+	db	$61
+; P2-54
+	db	$43
+	db	$61
+	db	$41
+	db	$30
+	db	$00
+	db	$31
+	db	$41
+	db	$31
+; P2-55
+	db	$17
+	db	$d5,$c7
+; P2-56
+	db	$fc
+	dw	bucle$
+melodia4_5$:
+; P2-4
+	db	$dc,$d2
+	db	$d4,$81
+	db	$dc,$e1
+	db	$50
+	db	$40
+	db	$dc,$d2
+	db	$51
+	db	$dc,$e1
+	db	$10
+	db	$d5,$c0
+	db	$d4,$10
+	db	$dc,$c3
+	db	$d5,$83
+	db	$51
+	db	$dc,$e1
+	db	$60
+; P2-5
+	db	$80
+	db	$dc,$d2
+	db	$a1
+	db	$dc,$e1
+	db	$c0
+	db	$d4,$10
+	db	$dc,$d2
+	db	$31
+	db	$dc,$e1
+	db	$50
+	db	$60
+	db	$dc,$c3
+	db	$ff
+melodia6_7$:
+; P2-6
+	db	$dc,$d2
+	db	$61
+	db	$dc,$e1
+	db	$30
+	db	$20
+	db	$dc,$d2
+	db	$31
+	db	$dc,$e1
+	db	$d5,$c0
+	db	$a0
+	db	$c0
+	db	$dc,$c3
+	db	$83
+	db	$dc,$d2
+	db	$d4,$81
+	db	$dc,$e1
+	db	$80
+; P2-7
+	db	$80
+	db	$a0
+	db	$dc,$d2
+	db	$81
+	db	$dc,$e1
+	db	$60
+	db	$50
+	db	$dc,$c3
+	db	$31
+	db	$ff
+;----------------------------------------
+m_generosidad3:
+;----------------------------------------
+	db	$ef,$f0
+; P3-1	-deslizar
+	db	$d8,$8,$14
+	db	$d5,$81
+	db	$90
+	db	$a0
+	db	$dc,$24
+	db	$b1
+	db	$c0
+	db	$d4,$10
+	db	$21
+	db	$dc,$34
+	db	$30
+	db	$40
+	db	$51
+	db	$60
+	db	$70
+	db	$80
+	db	$06
+; P3-2
+	db	$ef,$ff
+	db	$d8,$c,$10
+	db	$d5,$11
+	db	$d4,$11
+	db	$d5,$11
+	db	$d4,$11
+	db	$d6,$b1
+	db	$d5,$b1
+	db	$d6,$b1
+	db	$d5,$b1
+; P3-3
+	db	$d6,$91
+	db	$d5,$91
+	db	$d6,$91
+	db	$d5,$91
+	db	$d6,$83
+	db	$83
+bucle$:
+; P3-4	-sección nueva
+	db	$fe
+	dw	bajo4$
+	db	$fe
+	dw	bajo4$
+; P3-5
+	db	$fe
+	dw	bajo5_1$
+	db	$fe
+	dw	bajo5_1$
+	db	$fe
+	dw	bajo5_2$
+; P3-6
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$31
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$31
+	db	$fe
+	dw	bajo5_2$
+; P3-7
+	db	$fe
+	dw	bajo7$
+	db	$fe
+	dw	bajo4$
+; P3-8
+	db	$fe
+	dw	bajo4$
+	db	$fe
+	dw	bajo4$
+; P3-9
+	db	$fe
+	dw	bajo5_1$
+	db	$fe
+	dw	bajo5_1$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$61
+	db	$fe
+	dw	bajo9$
+; P3-10
+	db	$fe
+	dw	bajo5_2$
+	db	$fe
+	dw	bajo5_2$
+; P3-11
+	db	$fe
+	dw	bajo7$
+	db	$fe
+	dw	bajo4$
+bucle12_15$:
+; P3-12
+	db	$fe
+	dw	bajo5_1$
+	db	$fe
+	dw	bajo12_1$
+	db	$fe
+	dw	bajo12_2$
+; P3-13
+	db	$fe
+	dw	bajo9$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$a1
+	db	$fe
+	dw	bajo13$
+; P3-14
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$81
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$61
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$a1
+	db	$fe
+	dw	bajo12_1$
+; P3-15
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$61
+	db	$81
+	db	$a1
+	db	$c1
+	db	$d5,$11
+	db	$d6,$81
+	db	$d5,$13
+; P3-16
+	db	$fd,2
+	dw	bucle12_15$
+; P3-20	-transición
+	db	$fe
+	dw	bajo4$
+	db	$fe
+	dw	bajo5_1$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$b1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$31
+; P3-21
+bucle21$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$21
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$21
+	db	$fd,2
+	dw	bucle21$
+bucle22_29$:
+; P3-22	-sección nueva
+	db	$fe
+	dw	bajo22_1$
+	db	$fe
+	dw	bajo22_2$
+; P3-23
+	db	$fe
+	dw	bajo23_1$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a0
+	db	$c0
+	db	$d5,$20
+	db	$30
+	db	$fe
+	dw	bajo23_2$
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$30
+	db	$00
+; P3-24
+	db	$fe
+	dw	bajo23_2$
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$30
+	db	$00
+	db	$fe
+	dw	bajo23_2$
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$30
+	db	$00
+; P3-25
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$30
+	db	$30
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$50
+	db	$70
+	db	$90
+	db	$50
+	db	$fe
+	dw	bajo22_1$
+; P3-26
+	db	$fe
+	dw	bajo22_2$
+	db	$fe
+	dw	bajo22_1$
+; P3-27
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$a1
+	db	$a0
+	db	$c0
+	db	$d5,$10
+	db	$20
+	db	$fe
+	dw	bajo27$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$70
+	db	$00
+; P3-28
+	db	$fe
+	dw	bajo27$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$70
+	db	$00
+	db	$fe
+	dw	bajo23_1$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$00
+; P3-29
+	db	$fe
+	dw	bajo23_2$
+	db	$d5,$51
+	db	$d6,$a1
+	db	$51
+	db	$71
+	db	$91
+; P3-30
+	db	$fd,2
+	dw	bucle22_29$
+; P3-38	-transición
+bucle38$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$21
+	db	$fd,3
+	dw	bucle38$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$91
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+; P3-39
+	db	$fe
+	dw	bajo13$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c0
+	db	$c0
+	db	$fe
+	dw	bajo39$
+bucle40_47$:
+; P3-40	-sección nueva
+	db	$fe
+	dw	bajo12_2$
+	db	$fe
+	dw	bajo40$
+	db	$fe
+	dw	bajo40$
+; P3-41
+	db	$fe
+	dw	bajo41$
+	db	$fe
+	dw	bajo41$
+; P3-42
+	db	$fe
+	dw	bajo41$
+	db	$fe
+	dw	bajo41$
+; P3-43
+	db	$fe
+	dw	bajo12_2$
+	db	$fe
+	dw	bajo12_2$
+; P3-44
+	db	$fe
+	dw	bajo44$
+	db	$fe
+	dw	bajo44$
+; P3-45
+	db	$fe
+	dw	bajo45$
+	db	$fe
+	dw	bajo40$
+	db	$fe
+	dw	bajo45$
+	db	$fe
+	dw	bajo45$
+; P3-46
+	db	$fe
+	dw	bajo46$
+	db	$fe
+	dw	bajo46$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$31
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$31
+; P3-47
+	db	$fe
+	dw	bajo40$
+	db	$fe
+	dw	bajo40$
+	db	$fe
+	dw	bajo39$
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c1
+; P3-48
+	db	$fd,2
+	dw	bucle40_47$
+; P3-56
+	db	$fc
+	dw	bucle$
+bajo4$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$51
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$51
+	db	$ff
+bajo5_1$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$51
+	db	$ff
+bajo5_2$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$61
+bajo9$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$61
+	db	$ff
+bajo7$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$61
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$61
+	db	$ff
+bajo12_1$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$81
+	db	$ff
+bajo12_2$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ff
+bajo13$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c1
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c1
+	db	$ff
+bajo22_1$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$20
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$00
+	db	$ff
+bajo22_2$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$20
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$00
+	db	$ff
+bajo23_1$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$a1
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$20
+	db	$20
+	db	$ff
+bajo23_2$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$51
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$30
+	db	$30
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c1
+	db	$ff
+bajo27$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$70
+	db	$70
+	db	$ff
+bajo39$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c1
+	db	$ff
+bajo40$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ff
+bajo41$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$81
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$31
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$31
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d4,$c1
+	db	$ff
+bajo44$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$41
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ff
+bajo45$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$61
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$11
+	db	$ff
+bajo46$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d5,$11
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d3,$41
+	db	$ff
+;----------------------------------------
+m_generosidad4:
+;----------------------------------------
+	db	$e3,$001
+; P4-1	-deslizar
+	db	$d8,$c
+	db	$0f
+; P4-2
+	db	$ef,$0f
+	db	$d8,$6
+	db	$27
+	db	$27
+	db	$27
+	db	$23
+	db	$ef,$ff
+	db	$23
+; P4-3
+	db	$ef,$0f
+	db	$23
+	db	$23
+	db	$23
+	db	$23
+	db	$27
+	db	$37
+bucle$:
+	db	$ef,$ff
+bucle4$:
+; P4-4	-sección nueva
+	db	$fe
+	dw	tam4$
+; P4-5
+	db	$fd,8
+	dw	bucle4$
+; P4-6
+; P4-7
+; P4-8
+; P4-9
+; P4-10
+; P4-11
+bucle12$:
+; P4-12
+	db	$fe
+	dw	tam12$
+	db	$fe
+	dw	tam12$
+; P4-13
+	db	$fd,8
+	dw	bucle12$
+; P4-14
+; P4-15
+; P4-16
+; P4-17
+; P4-18
+; P4-19
+; P4-20
+	db	$ef,$ff
+	db	$fe
+	dw	tam20_21$
+bucle22$:
+; P4-22	-sección nueva
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$b3
+	db	$83
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$b3
+	db	$a3
+; P4-23
+	db	$fd,16
+	dw	bucle22$
+; P4-24
+; P4-25
+; P4-26
+; P4-27
+; P4-28
+; P4-29
+; P4-30
+; P4-31
+; P4-32
+; P4-33
+; P4-34
+; P4-35
+; P4-36
+; P4-37
+; P4-38
+	db	$fe
+	dw	tam20_21$
+bucle40$:
+; P4-40	-sección nueva
+	db	$fe
+	dw	tam4$
+; P4-41
+	db	$fd,16
+	dw	bucle40$
+; P4-42
+; P4-43
+; P4-44
+; P4-45
+; P4-46
+; P4-47
+; P4-48
+; P4-49
+; P4-50
+; P4-51
+; P4-52
+; P4-53
+; P4-54
+; P4-55
+; P4-56
+	db	$fc
+	dw	bucle$
+tam4$:
+	db	$43
+	db	$83
+	db	$43
+	db	$81
+	db	$81
+	db	$43
+	db	$83
+	db	$43
+	db	$a1
+	db	$81
+	db	$ff
+tam12$:
+	db	$ef,$ff
+	db	$43
+	db	$ef,$0f
+	db	$21
+	db	$21
+	db	$ef,$ff
+	db	$83
+	db	$ef,$0f
+	db	$21
+	db	$21
+	db	$ff
+tam20_21$:
+; P4-20
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$b3
+	db	$83
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$b3
+	db	$b3
+; P4-21
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$b3
+	db	$83
+	db	$b3
+	db	$80
+	db	$80
+	db	$80
+	db	$80
+	db	$83
+	db	$ef,$0f
+	db	$33
+	db	$ef,$ff
+	db	$ff
+
+

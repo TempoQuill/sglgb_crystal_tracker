@@ -1,0 +1,483 @@
+;	include	group.def
+;bank3d	group	G_MUSIC4
+;	;
+;	;	m_paseo
+;	;
+;	;	Convirtiendo en Mar Jul 13 12:43:02 1999
+;	;
+;	;				por ver 1.01
+;	;
+;	public	musm_paseo
+;musm_paseo:
+	db	0c0h
+	dw	m_paseo1
+	db	001h
+	dw	m_paseo2
+	db	002h
+	dw	m_paseo3
+	db	003h
+	dw	m_paseo4
+;----------------------------------------
+m_paseo1:
+;----------------------------------------
+	db	$da,$00,$8a
+	db	$e5,$77
+; P1-1
+	db	$ef,$f0
+	db	$db,$02
+	db	$d8,$c,$b1
+; P1-2
+	db	$d4,$c1
+	db	$a1
+	db	$91
+	db	$a1
+	db	$91
+	db	$71
+	db	$51
+	db	$31
+; P1-3
+	db	$d5,$c3
+	db	$90
+	db	$c0
+	db	$d4,$30
+	db	$50
+	db	$97
+; P1-4
+	db	$ef,$0f
+	db	$dc,$a4
+loop$:
+	db	$fe
+	dw	subrutina4_5$
+; P1-6
+	db	$fe
+	dw	subrutina4_5$
+; P1-8
+	db	$fe
+	dw	subrutina4_5$
+; P1-10
+	db	$fe
+	dw	subrutina10_11$
+; P1-12
+	db	$fe
+	dw	subrutina4_5$
+; P1-14
+	db	$fe
+	dw	subrutina10_11$
+; P1-16
+	db	$fc
+	dw	loop$
+subrutina10_11$:
+	db	$03
+	db	$d5,$20
+	db	$04
+	db	$33
+	db	$10
+	db	$00
+; P1-11
+	db	$03
+	db	$ef,$ff
+	db	$db,$01
+	db	$d6,$90
+	db	$00
+	db	$50
+	db	$00
+	db	$ef,$0f
+	db	$db,$02
+	db	$d4,$50
+	db	$00
+	db	$50
+	db	$00
+	db	$50
+	db	$02
+	db	$ff
+subrutina4_5$:
+	db	$03
+	db	$d5,$20
+	db	$04
+	db	$33
+	db	$10
+	db	$00
+; P2-5
+	db	$01
+	db	$20
+	db	$04
+	db	$d6,$50
+	db	$02
+	db	$b1
+	db	$c0
+	db	$00
+	db	$ff
+;----------------------------------------
+m_paseo2:
+;----------------------------------------
+; P2-1
+	db	$ef,$0f
+	db	$db,$01
+	db	$d8,$c,$b1
+; P2-2
+	db	$d4,$50
+	db	$00
+	db	$30
+	db	$00
+	db	$20
+	db	$00
+	db	$30
+	db	$00
+	db	$20
+	db	$00
+	db	$d5,$c0
+	db	$00
+	db	$a0
+	db	$00
+	db	$90
+	db	$00
+; P2-3
+	db	$50
+	db	$02
+	db	$50
+	db	$90
+	db	$c0
+	db	$d4,$30
+	db	$50
+	db	$02
+	db	$ef,$ff
+	db	$db,$01
+	db	$d8,$6,$d4
+	db	$d7,$c0
+	db	$b0
+	db	$a0
+	db	$90
+	db	$80
+	db	$60
+	db	$51
+;P2-4
+loop$:
+	db	$fe
+	dw	bajo4_5$
+; P2-6
+	db	$fe
+	dw	bajo4_5$
+; P2-8
+	db	$fe
+	dw	bajo4_5$
+; P2-10
+	db	$fe
+	dw	bajo10_11$
+; P2-12
+	db	$fe
+	dw	bajo4_5$
+; P2-14
+	db	$fe
+	dw	bajo10_11$
+; P2-16
+	db	$fc
+	dw	loop$
+bajo4_5$:
+; P3-4
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$05
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$51
+	db	$01
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$01
+	db	$d6,$31
+	db	$01
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$77
+	db	$41
+	db	$01
+; P3-5
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$01
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$51
+	db	$05
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$01
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$31
+	db	$05
+	db	$23
+	db	$31
+	db	$01
+	db	$ff
+bajo10_11$:
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$05
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$51
+	db	$01
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$a1
+	db	$01
+	db	$d6,$31
+	db	$01
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$77
+	db	$41
+	db	$01
+; P3-11
+	db	$ef,$ff
+	db	$db,$01
+	db	$d7,$91
+	db	$05
+	db	$ef,$0f
+	db	$db,$02
+	db	$d5,$31
+	db	$01
+	db	$d6,$c1
+	db	$01
+	db	$ef,$ff
+	db	$db,$01
+	db	$21
+	db	$01
+	db	$51
+	db	$01
+	db	$d7,$a1
+	db	$05
+	db	$ff
+;----------------------------------------
+m_paseo3:
+;----------------------------------------
+; P3-1
+	db	$ef,$f0
+	db	$e1,$10,$22
+; P3-2
+	db	$d8,$6,$14
+	db	$d6,$c0
+	db	$02
+	db	$d5,$30
+	db	$02
+	db	$50
+	db	$02
+	db	$90
+	db	$02
+	db	$c0
+	db	$02
+	db	$d4,$30
+	db	$02
+	db	$50
+	db	$02
+	db	$90
+	db	$02
+; P3-3
+	db	$31
+	db	$05
+	db	$31
+	db	$d5,$c1
+	db	$91
+	db	$c1
+	db	$51
+	db	$0d
+; P3-4
+loop$:
+	db	$dc,$17
+	db	$0f
+	db	$0f
+; P3-5
+	db	$0f
+	db	$0f
+; P3-6
+	db	$0f
+	db	$0f
+; P3-7
+	db	$0f
+	db	$0f
+; P3-8
+	db	$fe
+	dw	melodia8$
+	db	$a1
+	db	$05
+; P3-9
+	db	$d5,$a1
+	db	$01
+	db	$d4,$21
+	db	$01
+	db	$51
+	db	$05
+	db	$31
+	db	$01
+	db	$21
+	db	$01
+	db	$d5,$c1
+	db	$05
+; P3-10
+	db	$fe
+	dw	melodia8$
+	db	$a1
+	db	$01
+	db	$a1
+	db	$01
+; P3-11
+	db	$91
+	db	$01
+	db	$51
+	db	$01
+	db	$71
+	db	$01
+	db	$91
+	db	$01
+	db	$a1
+	db	$01
+	db	$a1
+	db	$01
+	db	$a1
+	db	$05
+; P3-12
+	db	$dc,$14
+	db	$fe
+	dw	melodia12$
+	db	$a3
+; P3-13
+	db	$d3,$21
+	db	$01
+	db	$d4,$a1
+	db	$01
+	db	$a1
+	db	$05
+	db	$91
+	db	$81
+	db	$71
+	db	$61
+	db	$51
+	db	$01
+	db	$41
+	db	$51
+; P3-14
+	db	$fe
+	dw	melodia12$
+	db	$a1
+	db	$01
+	db	$d3,$51
+	db	$01
+; P3-15
+	db	$31
+	db	$01
+	db	$d4,$c1
+	db	$01
+	db	$a1
+	db	$01
+	db	$91
+	db	$01
+	db	$a1
+	db	$01
+	db	$a1
+	db	$01
+	db	$a1
+	db	$05
+; P3-16
+	db	$fc
+	dw	loop$
+melodia8$:
+	db	$d5,$a1
+	db	$01
+	db	$d4,$21
+	db	$01
+	db	$51
+	db	$05
+	db	$31
+	db	$01
+	db	$71
+	db	$01
+	db	$ff
+melodia12$:
+	db	$d3,$21
+	db	$01
+	db	$d4,$a1
+	db	$01
+	db	$a1
+	db	$05
+	db	$d3,$71
+	db	$01
+	db	$d4,$a1
+	db	$01
+	db	$ff
+;----------------------------------------
+m_paseo4:
+;----------------------------------------
+	db	$e3,$001
+; P4-1
+	db	$d8,$c
+; P4-2
+	db	$0f
+; P4-3
+	db	$07
+	db	$91
+	db	$51
+	db	$a3
+; P4-4
+loop$:
+	db	$fe
+	dw	tambon4_5$
+; P4-6
+	db	$fe
+	dw	tambon4_5$
+; P4-8
+	db	$fe
+	dw	tambon4_5$
+; P4-10
+	db	$fe
+	dw	tambon10_11$
+; P4-12
+	db	$fe
+	dw	tambon4_5$
+; P4-14
+	db	$fe
+	dw	tambon10_11$
+; P4-16
+	db	$fc
+	dw	loop$
+tambon4_5$:
+	db	$41
+	db	$c1
+	db	$81
+	db	$11
+	db	$11
+	db	$c3
+	db	$91
+; P4-5
+	db	$51
+	db	$a3
+	db	$91
+	db	$11
+	db	$11
+	db	$91
+	db	$61
+	db	$ff
+tambon10_11$:
+	db	$41
+	db	$c1
+	db	$81
+	db	$11
+	db	$11
+	db	$c3
+	db	$91
+; P4-11
+	db	$51
+	db	$a3
+	db	$91
+	db	$91
+	db	$91
+	db	$91
+	db	$c1
+	db	$ff
+
+

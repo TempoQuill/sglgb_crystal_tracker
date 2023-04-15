@@ -1,0 +1,1021 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	ciudad_de_la_fiesta
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	musciudaddelafiesta
+;musciudaddelafiesta:
+	db	0c0h
+	dw	ciudaddelafiesta1
+	db	001h
+	dw	ciudaddelafiesta2
+	db	002h
+	dw	ciudaddelafiesta3
+	db	003h
+	dw	ciudaddelafiesta4
+;----------------------------------------
+ciudaddelafiesta1:
+;----------------------------------------
+	db	$da,$00,$99
+	db	$e5,$77
+	db	$e6,$00,$02
+	db	$e1,$0,$43
+bucle$:
+	db	$ef,$ff
+	db	$db,$01
+; P1-1
+	db	$fe
+	dw	subrutina1$
+; P1-2
+	db	$fe
+	dw	subrutina2$
+	db	$d5,$51
+	db	$a1
+; P1-3
+	db	$dc,$a1
+	db	$d4,$11
+	db	$10
+	db	$10
+	db	$dc,$93
+	db	$11
+	db	$11
+	db	$d5,$c1
+	db	$a1
+; P1-4
+	db	$c1
+	db	$dc,$95
+	db	$95
+	db	$dc,$93
+	db	$91
+	db	$a1
+; P1-5
+	db	$dc,$81
+	db	$c0
+	db	$00
+	db	$c0
+	db	$c0
+	db	$dc,$93
+	db	$c1
+	db	$c1
+	db	$d4,$11
+	db	$31
+; P1-6
+	db	$fe
+	dw	subrutina2$
+	db	$d5,$91
+	db	$a1
+; P1-7
+	db	$dc,$82
+	db	$c1
+	db	$dc,$81
+	db	$c0
+	db	$c0
+	db	$dc,$93
+	db	$c1
+	db	$c1
+	db	$a1
+	db	$91
+; P1-8
+	db	$a1
+	db	$dc,$95
+	db	$55
+	db	$dc,$93
+	db	$a1
+	db	$c1
+; P1-9
+	db	$fe
+	dw	subrutina1$
+; P1-10
+	db	$fe
+	dw	subrutina2$
+	db	$d5,$a1
+	db	$c1
+; P1-11
+	db	$dc,$82
+	db	$d4,$21
+	db	$dc,$81
+	db	$20
+	db	$20
+	db	$dc,$93
+	db	$21
+	db	$21
+	db	$31
+	db	$51
+; P1-12
+	db	$dc,$95
+	db	$37
+	db	$dc,$93
+	db	$61
+	db	$81
+; P1-13
+	db	$dc,$81
+	db	$a1
+	db	$dc,$81
+	db	$a0
+	db	$a0
+	db	$dc,$93
+	db	$a1
+	db	$a1
+	db	$81
+	db	$d8,$8,$81
+	db	$62
+; P1-14
+	db	$a0
+	db	$c0
+	db	$a0
+	db	$d8,$c,$95
+	db	$55
+	db	$dc,$93
+	db	$51
+	db	$a1
+; P1-15
+	db	$dc,$81
+	db	$90
+	db	$00
+	db	$90
+	db	$90
+	db	$dc,$93
+	db	$91
+	db	$91
+	db	$51
+	db	$51
+; P1-16
+	db	$dc,$95
+	db	$15
+	db	$d5,$c5
+; P1-17
+	db	$ef,$0f
+	db	$db,$02
+	db	$d8,$6,$81
+	db	$d4,$53
+	db	$53
+	db	$53
+	db	$dc,$93
+	db	$53
+	db	$33
+	db	$13
+; P1-18
+	db	$fe
+	dw	subrutina18$
+	db	$83
+	db	$a3
+; P1-19
+	db	$fe
+	dw	subrutina19$
+; P1-20
+	db	$fe
+	dw	subrutina20$
+	db	$89
+	db	$01
+	db	$d4,$13
+	db	$33
+; P1-21
+	db	$dc,$81
+	db	$51
+	db	$01
+	db	$51
+	db	$51
+	db	$53
+	db	$dc,$93
+	db	$53
+	db	$33
+	db	$13
+; P1-22
+	db	$fe
+	dw	subrutina18$
+	db	$dc,$93
+	db	$d4,$33
+	db	$33
+; P1-23
+	db	$dc,$81
+	db	$83
+	db	$83
+	db	$83
+	db	$dc,$93
+	db	$83
+	db	$63
+	db	$53
+; P1-24
+	db	$d8,$8,$81
+	db	$30
+	db	$50
+	db	$30
+	db	$d8,$6,$a6
+	db	$1f
+	db	$03
+; P1-25
+	db	$dc,$81
+	db	$61
+	db	$01
+	db	$61
+	db	$61
+	db	$63
+	db	$dc,$93
+	db	$63
+	db	$83
+	db	$a3
+; P1-26
+	db	$dc,$95
+	db	$5b
+	db	$1b
+; P1-27
+	db	$dc,$81
+	db	$31
+	db	$01
+	db	$31
+	db	$31
+	db	$dc,$93
+	db	$33
+	db	$33
+	db	$33
+	db	$d5,$c3
+; P1-28
+	db	$fe
+	dw	subrutina20$
+	db	$89
+	db	$01
+	db	$d4,$63
+	db	$83
+; P1-29
+	db	$dc,$81
+	db	$a1
+	db	$01
+	db	$a1
+	db	$a1
+	db	$dc,$93
+	db	$a3
+	db	$a3
+	db	$83
+	db	$63
+; P1-30
+	db	$dc,$81
+	db	$50
+	db	$60
+	db	$50
+	db	$30
+	db	$dc,$a6
+	db	$1f
+	db	$03
+; P1-31
+	db	$fe
+	dw	subrutina19$
+; P1-32
+	db	$fe
+	dw	subrutina20$
+	db	$87
+	db	$9b
+; P1-33
+	db	$fe
+	dw	subrutina33$
+; P1-34
+	db	$dc,$81
+	db	$91
+	db	$01
+	db	$91
+	db	$91
+	db	$93
+	db	$dc,$93
+	db	$93
+	db	$a3
+	db	$c3
+; P1-35
+	db	$fe
+	dw	subrutina33$
+; P1-36
+	db	$dc,$96
+	db	$9b
+	db	$d5,$9b
+; P1-37
+	db	$fc
+	dw	bucle$
+subrutina1$:
+	db	$d8,$c,$81
+	db	$d4,$10
+	db	$00
+	db	$10
+	db	$10
+	db	$dc,$93
+	db	$11
+	db	$11
+	db	$11
+	db	$11
+	db	$ff
+subrutina2$:
+	db	$d8,$8,$81
+	db	$30
+	db	$50
+	db	$30
+	db	$d8,$c,$95
+	db	$15
+	db	$dc,$93
+	db	$ff
+subrutina18$:
+	db	$dc,$81
+	db	$d5,$c0
+	db	$d4,$10
+	db	$d5,$c0
+	db	$a0
+	db	$dc,$95
+	db	$89
+	db	$01
+	db	$ff
+subrutina19$:
+	db	$dc,$81
+	db	$d5,$c1
+	db	$01
+	db	$c1
+	db	$c1
+	db	$dc,$93
+	db	$c3
+	db	$c3
+	db	$d4,$13
+	db	$33
+	db	$ff
+subrutina20$:
+	db	$dc,$81
+	db	$d4,$10
+	db	$30
+	db	$10
+	db	$d5,$c0
+	db	$dc,$95
+	db	$ff
+subrutina33$:
+	db	$dc,$81
+	db	$d5,$11
+	db	$01
+	db	$11
+	db	$11
+	db	$13
+	db	$dc,$93
+	db	$13
+	db	$d6,$c3
+	db	$a3
+	db	$ff
+;----------------------------------------
+ciudaddelafiesta2:
+;----------------------------------------
+	db	$ef,$ff
+	db	$e6,$00,$01
+	db	$db,$01
+	db	$e1,$0,$43
+bucle$:
+; P2-1
+	db	$fe
+	dw	melodia1$
+; P2-2
+	db	$fe
+	dw	melodia2$
+	db	$d5,$a1
+	db	$d4,$11
+; P2-3
+	db	$51
+	db	$dc,$c1
+	db	$50
+	db	$50
+	db	$dc,$e2
+	db	$51
+	db	$51
+	db	$31
+	db	$11
+; P2-4
+	db	$31
+	db	$dc,$e3
+	db	$d5,$c5
+	db	$dc,$e2
+	db	$c1
+	db	$d4,$11
+; P2-5
+	db	$dc,$e1
+	db	$31
+	db	$dc,$c1
+	db	$30
+	db	$30
+	db	$dc,$e2
+	db	$31
+	db	$31
+	db	$51
+	db	$61
+; P2-6
+	db	$fe
+	dw	melodia2$
+	db	$d5,$c1
+	db	$d4,$11
+; P2-7
+	db	$dc,$e1
+	db	$31
+	db	$dc,$c1
+	db	$30
+	db	$30
+	db	$dc,$e2
+	db	$31
+	db	$31
+	db	$11
+	db	$d5,$c1
+; P2-8
+	db	$d4,$11
+	db	$dc,$e3
+	db	$d5,$a5
+	db	$dc,$e2
+	db	$d4,$11
+	db	$31
+; P2-9
+	db	$fe
+	dw	melodia1$
+; P2-10
+	db	$fe
+	dw	melodia2$
+	db	$11
+	db	$31
+; P2-11
+	db	$dc,$e1
+	db	$51
+	db	$dc,$c1
+	db	$50
+	db	$50
+	db	$dc,$e2
+	db	$51
+	db	$51
+	db	$61
+	db	$81
+; P2-12
+	db	$dc,$e3
+	db	$67
+	db	$dc,$e2
+	db	$a1
+	db	$c1
+; P2-13
+	db	$dc,$c1
+	db	$d3,$10
+	db	$00
+	db	$10
+	db	$10
+	db	$dc,$e2
+	db	$11
+	db	$11
+	db	$d4,$c1
+	db	$a1
+; P2-14
+	db	$d8,$8,$c1
+	db	$d3,$10
+	db	$30
+	db	$10
+	db	$d8,$c,$e3
+	db	$d4,$a5
+	db	$dc,$e2
+	db	$c1
+	db	$d3,$11
+; P2-15
+	db	$dc,$c1
+	db	$d4,$c0
+	db	$00
+	db	$c0
+	db	$c0
+	db	$dc,$e2
+	db	$c1
+	db	$c1
+	db	$a1
+	db	$91
+; P2-16
+	db	$dc,$e3
+	db	$a5
+	db	$85
+; P2-17
+	db	$d8,$6,$c1
+	db	$83
+	db	$83
+	db	$83
+	db	$dc,$e2
+	db	$83
+	db	$63
+	db	$53
+; P2-18
+	db	$fe
+	dw	melodia18$
+	db	$c3
+	db	$d4,$13
+; P2-19
+	db	$fe
+	dw	melodia19$
+; P2-20
+	db	$fe
+	dw	melodia20$
+	db	$19
+	db	$01
+	db	$53
+	db	$63
+; P2-21
+	db	$dc,$c1
+	db	$81
+	db	$01
+	db	$81
+	db	$81
+	db	$83
+	db	$dc,$e2
+	db	$83
+	db	$63
+	db	$53
+; P2-22
+	db	$fe
+	dw	melodia18$
+	db	$dc,$e2
+	db	$d4,$83
+	db	$a3
+; P2-23
+	db	$dc,$c1
+	db	$c3
+	db	$c3
+	db	$c3
+	db	$dc,$e2
+	db	$c3
+	db	$a3
+	db	$83
+; P2-24
+	db	$d8,$8,$c1
+	db	$60
+	db	$80
+	db	$60
+	db	$d8,$6,$e4
+	db	$5f
+	db	$03
+; P2-25
+	db	$fe
+	dw	melodia25$
+	db	$c3
+	db	$d3,$13
+; P2-26
+	db	$dc,$e3
+	db	$d4,$8b
+	db	$5b
+; P2-27
+	db	$dc,$c1
+	db	$81
+	db	$01
+	db	$81
+	db	$81
+	db	$dc,$e2
+	db	$83
+	db	$83
+	db	$63
+	db	$33
+; P2-28
+	db	$fe
+	dw	melodia20$
+	db	$19
+	db	$01
+	db	$a3
+	db	$c3
+; P2-29
+	db	$dc,$c1
+	db	$d3,$11
+	db	$01
+	db	$11
+	db	$11
+	db	$dc,$e2
+	db	$13
+	db	$13
+	db	$d4,$c3
+	db	$a3
+; P2-30
+	db	$dc,$c1
+	db	$80
+	db	$a0
+	db	$80
+	db	$60
+	db	$dc,$e4
+	db	$5f
+	db	$03
+; P2-31
+	db	$fe
+	dw	melodia19$
+; P2-32
+	db	$fe
+	dw	melodia20$
+	db	$17
+	db	$d5,$cb
+; P2-33
+	db	$fe
+	dw	melodia25$
+	db	$83
+	db	$63
+; P2-34
+	db	$dc,$c1
+	db	$51
+	db	$01
+	db	$51
+	db	$51
+	db	$53
+	db	$dc,$e2
+	db	$53
+	db	$73
+	db	$93
+; P2-35
+	db	$fe
+	dw	melodia25$
+	db	$83
+	db	$63
+; P2-36
+	db	$dc,$e4
+	db	$5b
+	db	$d4,$5b
+; P2-37
+	db	$fc
+	dw	bucle$
+melodia1$:
+	db	$d8,$c,$c1
+	db	$d4,$50
+	db	$00
+	db	$50
+	db	$50
+	db	$dc,$e2
+	db	$51
+	db	$51
+	db	$51
+	db	$51
+	db	$ff
+melodia2$:
+	db	$d8,$8,$c1
+	db	$60
+	db	$80
+	db	$60
+	db	$d8,$c,$e3
+	db	$55
+	db	$dc,$e2
+	db	$ff
+melodia18$:
+	db	$dc,$c1
+	db	$30
+	db	$50
+	db	$30
+	db	$10
+	db	$dc,$e3
+	db	$d5,$cb
+	db	$ff
+melodia19$:
+	db	$dc,$c1
+	db	$31
+	db	$01
+	db	$31
+	db	$31
+	db	$dc,$e2
+	db	$33
+	db	$33
+	db	$53
+	db	$63
+	db	$ff
+melodia20$:
+	db	$dc,$c1
+	db	$50
+	db	$60
+	db	$50
+	db	$30
+	db	$dc,$e3
+	db	$ff
+melodia25$:
+	db	$dc,$c1
+	db	$a1
+	db	$01
+	db	$a1
+	db	$a1
+	db	$a3
+	db	$dc,$e2
+	db	$a3
+	db	$ff
+;----------------------------------------
+ciudaddelafiesta3:
+;----------------------------------------
+	db	$ef,$ff
+	db	$e1,$a,$45
+bucle$:
+; P3-1
+	db	$d8,$4,$10
+	db	$fe
+	dw	bajo1_3$
+	db	$d5,$35
+; P3-4
+	db	$58
+	db	$02
+	db	$55
+	db	$d6,$c8
+	db	$02
+	db	$c5
+; P3-5
+	db	$d5,$58
+	db	$02
+	db	$55
+	db	$58
+	db	$02
+	db	$55
+; P3-6
+	db	$5b
+	db	$d6,$c5
+	db	$d5,$58
+	db	$02
+	db	$55
+; P3-7
+	db	$58
+	db	$02
+	db	$55
+	db	$55
+	db	$35
+	db	$15
+; P3-8
+	db	$d6,$a8
+	db	$02
+	db	$a5
+	db	$d5,$58
+	db	$02
+	db	$55
+; P3-9
+	db	$fe
+	dw	bajo1_3$
+	db	$d5,$25
+; P3-12
+	db	$38
+	db	$02
+	db	$35
+	db	$a8
+	db	$02
+	db	$a5
+; P3-13
+	db	$38
+	db	$02
+	db	$35
+	db	$a5
+	db	$35
+	db	$15
+; P3-14
+	db	$d6,$a8
+	db	$02
+	db	$a5
+	db	$d5,$5b
+	db	$d6,$a5
+; P3-15
+	db	$58
+	db	$02
+	db	$52
+	db	$02
+	db	$55
+	db	$75
+	db	$95
+; P3-16
+	db	$a8
+	db	$02
+	db	$a5
+	db	$85
+	db	$a5
+	db	$c5
+; P3-17
+	db	$d5,$18
+	db	$02
+	db	$15
+	db	$15
+	db	$d6,$c5
+	db	$a5
+; P3-18
+	db	$8b
+	db	$d5,$35
+	db	$8b
+	db	$35
+; P3-19
+	db	$d6,$88
+	db	$02
+	db	$85
+	db	$85
+	db	$a5
+	db	$c5
+; P3-20
+	db	$d5,$18
+	db	$02
+	db	$15
+	db	$d6,$85
+	db	$a5
+	db	$c5
+; P3-21
+	db	$d5,$18
+	db	$02
+	db	$15
+	db	$15
+	db	$55
+	db	$15
+; P3-22
+	db	$88
+	db	$02
+	db	$85
+	db	$35
+	db	$d6,$c5
+	db	$a5
+; P3-23
+	db	$88
+	db	$02
+	db	$85
+	db	$85
+	db	$a5
+	db	$c5
+; P3-24
+	db	$d5,$18
+	db	$02
+	db	$15
+	db	$15
+	db	$35
+	db	$55
+; P3-25
+	db	$6a
+	db	$00
+	db	$65
+	db	$15
+	db	$65
+	db	$15
+; P3-26
+	db	$1a
+	db	$00
+	db	$15
+	db	$15
+	db	$d6,$c5
+	db	$a5
+; P3-27
+	db	$8a
+	db	$00
+	db	$d5,$35
+	db	$85
+	db	$35
+	db	$d6,$c5
+; P3-28
+	db	$d5,$1a
+	db	$00
+	db	$15
+	db	$15
+	db	$35
+	db	$55
+; P3-29
+	db	$6a
+	db	$00
+	db	$65
+	db	$65
+	db	$55
+	db	$35
+; P3-30
+	db	$1a
+	db	$00
+	db	$15
+	db	$15
+	db	$d6,$c5
+	db	$a5
+; P3-31
+	db	$8a
+	db	$00
+	db	$85
+	db	$85
+	db	$a5
+	db	$c5
+; P3-32
+	db	$d5,$1a
+	db	$00
+	db	$15
+	db	$5a
+	db	$00
+	db	$55
+; P3-33
+	db	$d6,$aa
+	db	$00
+	db	$a5
+	db	$a5
+	db	$d5,$15
+	db	$35
+; P3-34
+	db	$5a
+	db	$00
+	db	$55
+	db	$55
+	db	$75
+	db	$95
+; P3-35
+	db	$aa
+	db	$00
+	db	$a5
+	db	$a5
+	db	$85
+	db	$65
+; P3-36
+	db	$5b
+	db	$d6,$c5
+	db	$0b
+	db	$05
+; P3-37
+	db	$fc
+	dw	bucle$
+bajo1_3$:
+; P3-1
+	db	$d6,$a8
+	db	$02
+	db	$a5
+	db	$55
+	db	$82
+	db	$02
+	db	$95
+; P3-2
+	db	$a8
+	db	$02
+	db	$a5
+	db	$d5,$58
+	db	$02
+	db	$55
+; P3-3
+	db	$d6,$a8
+	db	$02
+	db	$a5
+	db	$a5
+	db	$c5
+	db	$ff
+;----------------------------------------
+ciudaddelafiesta4:
+;----------------------------------------
+	db	$ef,$ff
+	db	$e3,$001
+bucle$:
+bucle1_4$:
+; P4-1
+	db	$d8,$2
+	db	$fe
+	dw	tam1_3$
+; P4-4
+	db	$bb
+	db	$a5
+	db	$25
+	db	$a2
+	db	$82
+	db	$82
+	db	$82
+	db	$bb
+	db	$ab
+	db	$a5
+	db	$85
+; P4-5
+	db	$fd,8
+	dw	bucle1_4$
+; P4-9
+; P4-13
+; P4-17
+; P4-21
+; P4-25
+; P4-29
+; P4-33
+	db	$fe
+	dw	tam1_3$
+; P4-36
+	db	$bb
+	db	$a5
+	db	$25
+	db	$a2
+	db	$82
+	db	$82
+	db	$82
+	db	$7b
+	db	$ab
+	db	$a5
+	db	$85
+; P4-37
+	db	$fc
+	dw	bucle$
+tam1_3$:
+; P4-1
+	db	$bb
+	db	$a3
+	db	$23
+	db	$23
+	db	$a2
+	db	$82
+	db	$82
+	db	$82
+	db	$bb
+	db	$ab
+	db	$ab
+; P4-2
+	db	$bb
+	db	$a5
+	db	$25
+	db	$a2
+	db	$82
+	db	$82
+	db	$82
+	db	$bb
+	db	$ab
+	db	$a5
+	db	$85
+; P4-3
+	db	$bb
+	db	$23
+	db	$21
+	db	$81
+	db	$23
+	db	$85
+	db	$85
+	db	$bb
+	db	$ab
+	db	$ab
+	db	$ff
+
+
