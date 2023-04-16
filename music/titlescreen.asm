@@ -118,6 +118,7 @@ Music_TitleScreen_Ch1:
 	note F#, 7
 	rest 9
 	rest 8
+	duty_cycle 2
 	stereo_panning FALSE, TRUE
 	volume_envelope 10, 2
 	note C_, 4
@@ -161,21 +162,23 @@ Music_TitleScreen_Ch1:
 	note G_, 2
 	duty_cycle 1
 	volume_envelope 12, 3
-	octave 2
+	octave 3
 	note C_, 8
 	duty_cycle 2
 	volume_envelope 8, 1
+	octave 5
 	note B_, 2
 	octave 6
 	note D_, 2
 	note G_, 2
+	note B_, 2
 	duty_cycle 1
 	volume_envelope 12, 3
 	octave 3
 	note E_, 4
 	note F_, 8
 	note_type 12, 11, 4
-	note E_, 12
+	note G_, 12
 	sound_ret
 
 Music_TitleScreen_Ch2:
