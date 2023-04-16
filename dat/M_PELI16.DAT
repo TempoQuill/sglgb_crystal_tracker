@@ -188,7 +188,7 @@ bajo4$:
 	db	$d7,$71
 	db	$ef,$0f
 	db	$db,$02
-	db	$d6,$91
+	db	$d6,$71
 	db	$b1
 	db	$d5,$21
 	db	$ff
