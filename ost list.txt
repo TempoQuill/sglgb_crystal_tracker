@@ -1,21 +1,21 @@
 0.		M_STOP
-1.	+	M_PELI11	Introduction
-2.	+	M_PELI12	Title
-3.		M_PELI13	Credits
-4.		M_PELI14	Score Tally
-5.		M_PELI15	Continue
-6.		M_PELI16	Game Over
-7.		M_PELI17	Rescue
-8.	+	M_MADERA	Surely Wood
-9.		M_SAGURA	Surely Wood Boss
-10.	+	GALAXIA		Galactical Galaxies
-11.		ESPACIO		Galactical Galaxies Boss
-12.	+	GENEROSI	Ye Olde Bounty
-13.		ANTIGUA		Ye Olde Bounty Boss
-14.	+	M_CIUDAD	Party City
-15.	+	M_ROCA		Sleepy Rock
-16.	+	CABANYA		Snowy Cabin
-17.	+	TORREON		Ancient Keep
-18.	+	M_ALTA		Map
+1.	+	M_ROCA		Sleepy Rock
+2.	+	TORREON		Ancient Keep
+3.	+	CABANYA		Snowy Cabin
+4.	+	GALAXIA		Galactical Galaxies
+5.		ESPACIO		Galactical Galaxies Boss
+6.	+	M_MADERA	Surely Wood
+7.		M_SAGURA	Surely Wood Boss
+8.	+	M_CIUDAD	Party City
+9.	+	GENEROSI	Ye Olde Bounty
+10.		ANTIGUA		Ye Olde Bounty Boss
+11.	+	M_PELI11	Introduction
+12.		M_PELI14	Score Tally
+13.	+	M_PELI12	Title
+14.		M_PELI13	Credits
+15.		M_PELI16	Game Over
+16.		M_PELI17	Rescue
+17.	+	M_ALTA		Map
+18.		M_PELI15	Continue
 19.	+	M_PASEO
 20.	+	LAVANDA
