@@ -179,7 +179,7 @@ Music_SpeedysRescue_Ch1:
 	stereo_panning FALSE, TRUE
 	duty_cycle 2
 	octave 2
-	note G#, 2
+	note F#, 2
 	note A#, 2
 	octave 3
 	note C#, 2
