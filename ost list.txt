@@ -10,7 +10,7 @@
 9.	+	GENEROSI	Ye Olde Bounty
 10.		ANTIGUA		Ye Olde Bounty Boss
 11.	+	M_PELI11	Introduction
-12.		M_PELI12	Score Tally
+12.	+	M_PELI12	Score Tally
 13.	+	M_PELI13	Title
 14.		M_PELI14	Credits
 15.		M_PELI15	Game Over

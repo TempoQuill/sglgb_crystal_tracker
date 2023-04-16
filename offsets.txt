@@ -7,7 +7,8 @@
 03:5f0a	Sleepy Rock
 03:69fc	Ancient Keep
 03:7179	The Merry Go Round Broke Down
-03:745d
+03:745d Score Tally
+03:75f6
 04:4000	(GSC) Tour
 04:4213	(GSC) Lavender Town
 04:44b5	(GSC) SS Aqua
