@@ -7,18 +7,18 @@
 	;
 	;				por ver 1.01
 	;
-;	public	muspelicula12
-;muspelicula12:
+;	public	muspelicula13
+;muspelicula13:
 	db	0c0h
-	dw	m_pelicula121
+	dw	m_pelicula131
 	db	001h
-	dw	m_pelicula122
+	dw	m_pelicula132
 	db	002h
-	dw	m_pelicula123
+	dw	m_pelicula133
 	db	003h
-	dw	m_pelicula124
+	dw	m_pelicula134
 ;----------------------------------------
-m_pelicula121:
+m_pelicula131:
 ;----------------------------------------
 	db	$da,$00,$7b
 	db	$e5,$77
@@ -188,7 +188,7 @@ m_pelicula121:
 ; P1-9	-aten
 	db	$ff
 ;----------------------------------------
-m_pelicula122:
+m_pelicula132:
 ;----------------------------------------
 	db	$ef,$ff
 	db	$db,$02
@@ -322,7 +322,7 @@ m_pelicula122:
 ; P2-9	-aten
 	db	$ff
 ;----------------------------------------
-m_pelicula123:
+m_pelicula133:
 ;----------------------------------------
 	db	$ef,$ff
 ; P3-0
@@ -524,7 +524,7 @@ bajo1$:
 	db	$03
 	db	$ff
 ;----------------------------------------
-m_pelicula124:
+m_pelicula134:
 ;----------------------------------------
 	db	$e3,$001
 	db	$ef,$ff

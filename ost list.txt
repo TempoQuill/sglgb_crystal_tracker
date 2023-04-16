@@ -10,12 +10,12 @@
 9.	+	GENEROSI	Ye Olde Bounty
 10.		ANTIGUA		Ye Olde Bounty Boss
 11.	+	M_PELI11	Introduction
-12.		M_PELI14	Score Tally
-13.	+	M_PELI12	Title
-14.		M_PELI13	Credits
-15.		M_PELI16	Game Over
-16.		M_PELI17	Rescue
+12.		M_PELI12	Score Tally
+13.	+	M_PELI13	Title
+14.		M_PELI14	Credits
+15.		M_PELI15	Game Over
+16.		M_PELI16	Rescue
 17.	+	M_ALTA		Map
-18.		M_PELI15	Continue
+18.		M_PELI17	Continue
 19.	+	M_PASEO
 20.	+	LAVANDA
