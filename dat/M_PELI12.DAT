@@ -1,0 +1,323 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	m_pelicula12
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	muspelicula12
+;muspelicula12:
+	db	0c0h
+	dw	m_pelicula121
+	db	001h
+	dw	m_pelicula122
+	db	002h
+	dw	m_pelicula123
+	db	003h
+	dw	m_pelicula124
+;----------------------------------------
+m_pelicula121:
+;----------------------------------------
+	db	$da,$00,$b0
+	db	$e5,$77
+	db	$db,$02
+	db	$ef,$f0
+; P1-1
+	db	$d8,$6,$81
+	db	$d3,$83
+	db	$51
+	db	$41
+	db	$53
+	db	$11
+	db	$d4,$c1
+	db	$d3,$11
+	db	$d4,$87
+	db	$53
+	db	$61
+; P1-2
+	db	$81
+	db	$a3
+	db	$c1
+	db	$d3,$11
+	db	$33
+	db	$51
+	db	$61
+	db	$37
+	db	$63
+	db	$51
+; P1-3
+	db	$63
+	db	$31
+	db	$21
+	db	$33
+	db	$d4,$c1
+	db	$b1
+	db	$c1
+	db	$87
+	db	$d3,$83
+	db	$81
+; P1-4
+	db	$81
+	db	$a1
+	db	$81
+	db	$61
+	db	$51
+	db	$61
+	db	$51
+	db	$31
+	db	$ef,$0f
+	db	$fe
+	dw	subrutina4$
+	db	$dc,$d1
+	db	$d6,$c0
+	db	$d5,$30
+	db	$80
+	db	$00
+	db	$dc,$71
+	db	$d6,$c0
+	db	$d5,$30
+	db	$80
+	db	$00
+	db	$fe
+	dw	subrutina4$
+	db	$dc,$41
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$dc,$21
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$ff
+subrutina4$:
+	db	$d8,$3,$d1
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$dc,$71
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$ff
+;----------------------------------------
+m_pelicula122:
+;----------------------------------------
+	db	$e1,$6,$26
+	db	$db,$03
+	db	$ef,$ff
+; P2-1
+bucle1$:
+	db	$fe
+	dw	bajo1_1$
+	db	$d7,$83
+	db	$fe
+	dw	bajo1_2$
+	db	$d7,$83
+	db	$fd,2
+	dw	bucle1$
+; P2-2
+	db	$fe
+	dw	bajo1_1$
+	db	$13
+	db	$fe
+	dw	bajo1_2$
+	db	$d6,$13
+bucle2$:
+	db	$fe
+	dw	bajo2$
+	db	$dc,$71
+	db	$30
+	db	$80
+	db	$c0
+	db	$00
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$c1
+	db	$d6,$33
+; P2-3
+	db	$fd,3
+	dw	bucle2$
+; P2-4
+	db	$fe
+	dw	bajo2$
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$e2
+	db	$d7,$c3
+	db	$fe
+	dw	bajo4$
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$e2
+	db	$d6,$17
+	db	$d7,$87
+	db	$d6,$1f
+	db	$ff
+bajo1_1$:
+	db	$d8,$3,$e2
+	db	$d6,$17
+	db	$db,$02
+	db	$ef,$0f
+	db	$dc,$d1
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$c1
+	db	$d6,$13
+	db	$dc,$e2
+	db	$ff
+bajo1_2$:
+	db	$db,$02
+	db	$ef,$0f
+	db	$dc,$d1
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$dc,$71
+	db	$d5,$50
+	db	$80
+	db	$d4,$10
+	db	$00
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$c1
+	db	$ff
+bajo2$:
+	db	$dc,$e2
+	db	$d7,$87
+	db	$db,$02
+	db	$ef,$0f
+	db	$dc,$d1
+	db	$d5,$30
+	db	$80
+	db	$c0
+	db	$00
+	db	$db,$03
+	db	$ef,$ff
+	db	$dc,$c1
+	db	$d7,$83
+	db	$dc,$e2
+	db	$d6,$33
+bajo4$:
+	db	$db,$02
+	db	$ef,$0f
+	db	$dc,$d1
+	db	$d5,$30
+	db	$80
+	db	$c0
+	db	$00
+	db	$ff
+;----------------------------------------
+m_pelicula123:
+;----------------------------------------
+	db	$ef,$ff
+	db	$e1,$4,$20
+; P3-1
+	db	$d8,$6,$17
+	db	$d4,$13
+	db	$53
+	db	$01
+	db	$d5,$82
+	db	$00
+	db	$81
+	db	$d4,$12
+	db	$00
+	db	$54
+	db	$00
+	db	$d5,$82
+	db	$00
+	db	$81
+; P3-2
+	db	$d4,$11
+	db	$11
+	db	$d5,$c1
+	db	$c1
+	db	$a0
+	db	$00
+	db	$a0
+	db	$00
+	db	$91
+	db	$90
+	db	$00
+	db	$88
+	db	$00
+	db	$82
+	db	$00
+	db	$81
+; P3-3
+	db	$c3
+	db	$d4,$33
+	db	$01
+	db	$d5,$82
+	db	$00
+	db	$81
+	db	$c3
+	db	$d4,$35
+	db	$82
+	db	$00
+	db	$80
+	db	$00
+; P3-4
+	db	$81
+	db	$a1
+	db	$80
+	db	$00
+	db	$61
+	db	$50
+	db	$00
+	db	$60
+	db	$00
+	db	$51
+	db	$30
+	db	$00
+	db	$11
+	db	$01
+	db	$81
+	db	$01
+	db	$d3,$17
+	db	$ff
+;----------------------------------------
+m_pelicula124:
+;----------------------------------------
+	db	$e3,$001
+	db	$ef,$ff
+bucle1$:
+; P4-1
+	db	$d8,$c
+	db	$fe
+	dw	tam1$
+	db	$fe
+	dw	tam1$
+; P4-2
+	db	$fd,3
+	dw	bucle1$
+; P4-3
+; P4-4
+	db	$fe
+	dw	tam1$
+	db	$91
+	db	$90
+	db	$80
+	db	$33
+	db	$ff
+tam1$:
+	db	$51
+	db	$90
+	db	$40
+	db	$50
+	db	$80
+	db	$c0
+	db	$40
+	db	$ff
+
+
