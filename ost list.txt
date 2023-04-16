@@ -14,7 +14,7 @@
 13.	+	M_PELI13	Title
 14.		M_PELI14	Credits
 15.		M_PELI15	Game Over
-16.		M_PELI16	Rescue
+16.	+	M_PELI16	Rescue
 17.	+	M_ALTA		Map
 18.		M_PELI17	Continue
 19.	+	M_PASEO
