@@ -786,7 +786,7 @@ Music_AncientKeep_Ch2:
 	note A_, 4
 	octave 2
 	note A_, 4
-bucle42_45$:
+.loop2:
 	octave 2
 	note D_, 4
 	octave 3
@@ -867,7 +867,7 @@ bucle42_45$:
 	rest 1
 	octave 1
 	note A_, 4
-	sound_loop 2, bucle42_45$
+	sound_loop 2, .loop2
 	octave 1
 	note G#, 4
 	octave 2
@@ -904,7 +904,7 @@ bucle42_45$:
 	note F_, 4
 	note E_, 4
 	note F_, 4
-bucle54$:
+.loop3:
 	octave 1
 	note D_, 4
 	octave 2
@@ -921,7 +921,7 @@ bucle54$:
 	note D_, 4
 	octave 2
 	note D_, 4
-	sound_loop 2, bucle54$
+	sound_loop 2, .loop3
 	octave 2
 	note D_, 4
 	note C#, 4
@@ -1032,7 +1032,7 @@ bucle54$:
 	octave 2
 	note A_, 4
 	note F_, 4
-.loop6:
+.loop4:
 	note D_, 8
 	rest 4
 	note A_, 5
@@ -1042,7 +1042,7 @@ bucle54$:
 	octave 2
 	note A_, 4
 	note F_, 4
-	sound_loop 2, .loop6
+	sound_loop 2, .loop4
 	sound_jump .mainloop
 
 Music_AncientKeep_Ch3:
@@ -1184,7 +1184,7 @@ Music_AncientKeep_Ch3:
 	note E_, 1
 	octave 4
 	note A_, 1
-bucle38$:
+.loop3:
 	octave 5
 	note F_, 1
 	octave 4
@@ -1197,7 +1197,7 @@ bucle38$:
 	note A_, 1
 	octave 4
 	note A_, 1
-	sound_loop 2, bucle38$
+	sound_loop 2, .loop3
 	octave 5
 	note A#, 1
 	octave 4
@@ -1288,7 +1288,7 @@ bucle38$:
 	note C#, 1
 	octave 3
 	note A_, 1
-bucle42_45$:
+.loop4:
 	octave 5
 	note D_, 1
 	note F_, 1
@@ -1349,7 +1349,7 @@ bucle42_45$:
 	octave 4
 	note D_, 2
 	note C#, 4
-	sound_loop 2, bucle42_45$
+	sound_loop 2, .loop4
 	octave 4
 	note F_, 16
 	note E_, 8
@@ -1479,30 +1479,30 @@ bucle42_45$:
 	note F_, 1
 	note C_, 1
 	note F_, 1
-bucle61_1$:
+.loop5:
 	octave 3
 	note A#, 1
 	octave 4
 	note D_, 1
-	sound_loop 4, bucle61_1$
-bucle61_2$
+	sound_loop 4, .loop5
+.loop6
 	octave 3
 	note A#, 1
 	octave 4
 	note E_, 1
-	sound_loop 4, bucle61_2$
-bucle62_1$:
+	sound_loop 4, .loop6
+.loop7:
 	octave 3
 	note A_, 1
 	octave 4
 	note C#, 1
-	sound_loop 4, bucle62_1$
-bucle62_2$:
+	sound_loop 4, .loop7
+.loop8:
 	octave 3
 	note F_, 1
 	octave 4
 	note D_, 1
-	sound_loop 4, bucle62_2$
+	sound_loop 4, .loop8
 	octave 3
 	note E_, 1
 	note A#, 1
@@ -1558,7 +1558,7 @@ Music_AncientKeep_Ch4:
 	rest 16
 	rest 16
 .mainloop:
-bucle5_6$:
+.loop1:
 	sound_call .sub1
 	stereo_panning FALSE, TRUE
 	drum_note 2, 1
@@ -1566,14 +1566,14 @@ bucle5_6$:
 	sound_call .sub1
 	stereo_panning FALSE, TRUE
 	drum_note 12, 2
-	sound_loop 16, bucle5_6$
+	sound_loop 16, .loop1
 .loop2:
 	sound_call .sub1
 	stereo_panning FALSE, TRUE
 	drum_note 2, 1
 	drum_note 2, 1
 	sound_loop 5, .loop2
-bucle42_43$:
+.loop3:
 	sound_call .sub2
 	stereo_panning TRUE, TRUE
 	drum_note 8, 1
@@ -1599,23 +1599,23 @@ bucle42_43$:
 	stereo_panning TRUE, TRUE
 	drum_note 8, 1
 	drum_note 8, 1
-	sound_loop 4, bucle42_43$
-bucle50$:
+	sound_loop 4, .loop3
+.loop4:
 	sound_call .sub3
 	stereo_panning FALSE, TRUE
 	drum_note 2, 1
 	drum_note 6, 1
-	sound_loop 2, bucle50$
-bucle52$:
+	sound_loop 2, .loop4
+.loop5:
 	sound_call .sub3
 	stereo_panning TRUE, TRUE
 	drum_note 4, 1
 	drum_note 6, 1
-	sound_loop 2, bucle52$
-bucle54$:
+	sound_loop 2, .loop5
+.loop6:
 	sound_call .sub4
 	sound_call .sub4
-	sound_loop 16, bucle54$
+	sound_loop 16, .loop6
 	sound_jump .mainloop
 
 .sub1:
