@@ -359,7 +359,7 @@ Music_TitleScreen_Ch3:
 	rest 4
 	sound_call .sub1
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 3
 	note C_, 8
 	stereo_panning FALSE, TRUE
@@ -368,7 +368,7 @@ Music_TitleScreen_Ch3:
 	note C_, 8
 	sound_call .sub1
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note G#, 8
 	stereo_panning FALSE, TRUE
@@ -377,7 +377,7 @@ Music_TitleScreen_Ch3:
 	note G#, 7
 	rest 1
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note D#, 8
 	stereo_panning FALSE, TRUE
@@ -385,7 +385,7 @@ Music_TitleScreen_Ch3:
 	octave 3
 	note G#, 8
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note G#, 8
 	stereo_panning FALSE, TRUE
@@ -393,7 +393,7 @@ Music_TitleScreen_Ch3:
 	octave 3
 	note G#, 8
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note D#, 8
 	stereo_panning FALSE, TRUE
@@ -402,7 +402,7 @@ Music_TitleScreen_Ch3:
 	note G#, 3
 	rest 5
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 3
 	note E_, 6
 	rest 2
@@ -411,7 +411,7 @@ Music_TitleScreen_Ch3:
 	note B_, 5
 	rest 3
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	note C#, 6
 	rest 2
 	stereo_panning FALSE, TRUE
@@ -419,7 +419,7 @@ Music_TitleScreen_Ch3:
 	note B_, 5
 	rest 3
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note B_, 6
 	rest 2
@@ -431,7 +431,7 @@ Music_TitleScreen_Ch3:
 	note A_, 15
 	rest 1
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note B_, 8
 	stereo_panning FALSE, TRUE
@@ -440,7 +440,7 @@ Music_TitleScreen_Ch3:
 	note A_, 6
 	rest 2
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	note C#, 5
 	rest 3
 	note D#, 5
@@ -451,7 +451,7 @@ Music_TitleScreen_Ch3:
 	note B_, 3
 	rest 5
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	note D_, 8
 	stereo_panning FALSE, TRUE
 	volume_envelope 1, 4
@@ -508,7 +508,7 @@ Music_TitleScreen_Ch3:
 	note F_, 2
 	rest 6
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note G_, 5
 	rest 3
@@ -518,7 +518,7 @@ Music_TitleScreen_Ch3:
 	octave 3
 	note F_, 4
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note F#, 5
 	rest 3
@@ -534,7 +534,7 @@ Music_TitleScreen_Ch3:
 
 .sub1:
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 4
+	volume_envelope 1, 0
 	octave 2
 	note G_, 8
 	stereo_panning FALSE, TRUE
