@@ -1,6 +1,6 @@
 0.		M_STOP
 1.	+	M_PELI11	Introduction
-2.		M_PELI12	Title
+2.	+	M_PELI12	Title
 3.		M_PELI13	Credits
 4.		M_PELI14	Score Tally
 5.		M_PELI15	Continue
