@@ -294,15 +294,17 @@ Music_Continue_Ch3:
 	note C_, 1
 	octave 4
 	note B_, 1
+	note A#, 1
+	note A_, 1
 	note G#, 1
 	note G_, 1
 	note F#, 1
 	note F_, 1
 	note E_, 1
 	note D#, 1
+	volume_envelope 2, 3
 	note D_, 1
 	note C#, 1
-	volume_envelope 2, 3
 	note C_, 1
 	octave 3
 	note B_, 1
@@ -311,17 +313,15 @@ Music_Continue_Ch3:
 	note G#, 1
 	note G_, 1
 	note F#, 1
+	volume_envelope 3, 3
 	note F_, 1
 	note E_, 1
-	volume_envelope 3, 3
 	note D#, 1
 	note D_, 1
 	note C#, 1
 	note C_, 1
 	octave 2
 	note B_, 1
-	note G#, 1
-	note A_, 1
 	sound_ret
 
 Music_Continue_Ch4:

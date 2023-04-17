@@ -303,17 +303,6 @@ bucle1_2$:
 	db	$dc,$13
 	db	$10
 	db	$d4,$c0
-	db	$90
-	db	$80
-	db	$70
-	db	$60
-	db	$50
-	db	$40
-	db	$30
-	db	$20
-	db	$dc,$23
-	db	$10
-	db	$d5,$c0
 	db	$b0
 	db	$a0
 	db	$90
@@ -321,14 +310,25 @@ bucle1_2$:
 	db	$70
 	db	$60
 	db	$50
+	db	$40
+	db	$dc,$23
+	db	$30
+	db	$20
+	db	$10
+	db	$d5,$c0
+	db	$b0
+	db	$a0
+	db	$90
+	db	$80
+	db	$70
 	db	$dc,$33
+	db	$60
+	db	$50
 	db	$40
 	db	$30
 	db	$20
 	db	$10
 	db	$d6,$c0
-	db	$90
-	db	$a0
 	db	$ff
 ;----------------------------------------
 m_pelicula174:
