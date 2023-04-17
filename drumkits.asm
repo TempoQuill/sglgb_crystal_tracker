@@ -179,7 +179,7 @@ Drumkit3:
 	dw Kick
 	dw Click
 	dw Click_Snare
-	dw Silence
+	dw Snare
 	dw Silence
 	dw Silence
 	dw Silence
