@@ -143,35 +143,35 @@ Music_Continue_Ch2:
 	note_type 3, 13, 3
 	octave 1
 	note A_, 10
-	note __, 2
+	rest 2
 	octave 2
 	note E_, 7
-	note __, 1
+	rest 1
 	note E_, 3
-	note __, 1
+	rest 1
 	volume_envelope 13, 8
 	note E_, 8
 	volume_envelope 12, 3
 	note E_, 5
-	note __, 3
+	rest 3
 	volume_envelope 13, 3
 	octave 1
 	note A_, 11
-	note __, 1
+	rest 1
 	note G_, 11
-	note __, 1
+	rest 1
 	note F_, 10
-	note __, 2
+	rest 2
 	octave 2
 	note C_, 7
-	note __, 1
+	rest 1
 	note C_, 3
-	note __, 1
+	rest 1
 	volume_envelope 13, 8
 	note C_, 8
 	volume_envelope 12, 3
 	note C_, 4
-	note __, 4
+	rest 4
 	volume_envelope 13, 3
 	octave 1
 	note F_, 8
