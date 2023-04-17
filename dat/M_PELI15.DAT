@@ -1,0 +1,223 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	canta_y_no_llores
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	muspelicula15
+;muspelicula15:
+	db	080h
+	dw	m_pelicula151
+	db	001h
+	dw	m_pelicula152
+	db	002h
+	dw	m_pelicula153
+;----------------------------------------
+m_pelicula151:
+;----------------------------------------
+	db	$da,$00,$f5
+	db	$e5,$77
+	db	$db,$01
+	db	$ef,$ff
+; P3-1
+	db	$d8,$c,$b7
+	db	$d7,$c5
+	db	$d6,$35
+; P3-2
+	db	$55
+	db	$d7,$c3
+	db	$d6,$51
+; P3-3
+	db	$75
+	db	$25
+; P3-4
+	db	$d7,$c5
+	db	$d6,$75
+; P3-5
+	db	$d7,$c5
+	db	$c5
+; P3-6
+	db	$d6,$75
+	db	$25
+; P3-7
+	db	$75
+	db	$25
+; P3-8-10
+	db	$d7,$c3
+	db	$71
+	db	$cf
+	db	$ff
+;----------------------------------------
+m_pelicula152:
+;----------------------------------------
+	db	$db,$02
+	db	$e1,$1,$53
+	db	$ef,$0f
+; P2-1
+	db	$d8,$c,$e4
+	db	$d4,$35
+	db	$dc,$e3
+	db	$23
+	db	$dc,$e2
+	db	$d5,$c1
+; P2-2
+	db	$dc,$e6
+	db	$89
+	db	$dc,$e2
+	db	$c1
+; P2-3
+	db	$d4,$21
+	db	$21
+	db	$21
+	db	$21
+	db	$21
+	db	$d5,$c1
+; P2-4
+	db	$d4,$31
+	db	$dc,$e5
+	db	$d5,$c7
+	db	$dc,$e2
+	db	$71
+; P2-5
+	db	$81
+	db	$81
+	db	$71
+	db	$81
+	db	$81
+	db	$71
+; P2-6
+	db	$dc,$e3
+	db	$d4,$53
+	db	$dc,$e2
+	db	$21
+	db	$dc,$e3
+	db	$d5,$b3
+	db	$dc,$e2
+	db	$81
+; P2-7
+	db	$71
+	db	$71
+	db	$71
+	db	$71
+	db	$91
+	db	$b1
+; P2-8-9
+	db	$dc,$e7
+	db	$cf
+	db	$ff
+;----------------------------------------
+m_pelicula153:
+;----------------------------------------
+	db	$ef,$ff
+; P3-1
+	db	$fe
+	dw	subrutina1$
+	db	$fe
+	dw	subrutina1$
+; P3-2
+bucle2$:
+	db	$dc,$14
+	db	$d5,$50
+	db	$dc,$24
+	db	$50
+	db	$dc,$14
+	db	$80
+	db	$dc,$24
+	db	$80
+	db	$dc,$14
+	db	$c0
+	db	$dc,$24
+	db	$c0
+	db	$fd,2
+	dw	bucle2$
+; P3-3
+	db	$fe
+	dw	subrutina3$
+	db	$fe
+	dw	subrutina3$
+; P3-4
+	db	$fe
+	dw	subrutina1$
+	db	$fe
+	dw	subrutina1$
+; P3-5
+	db	$fe
+	dw	subrutina1$
+	db	$fe
+	dw	subrutina1$
+; P3-6
+	db	$fe
+	dw	subrutina3$
+bucle6$:
+	db	$dc,$14
+	db	$d5,$50
+	db	$dc,$24
+	db	$50
+	db	$dc,$14
+	db	$70
+	db	$dc,$24
+	db	$70
+	db	$dc,$14
+	db	$b0
+	db	$dc,$24
+	db	$b0
+; P3-7
+	db	$fd,3
+	dw	bucle6$
+; P3-8
+	db	$dc,$14
+	db	$70
+	db	$dc,$24
+	db	$70
+	db	$dc,$14
+	db	$c0
+	db	$dc,$24
+	db	$c0
+	db	$dc,$14
+	db	$d4,$30
+	db	$d8,$3,$24
+	db	$32
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$d4,$3e
+	db	$dc,$24
+	db	$37
+; P3-9
+	db	$37
+	db	$dc,$34
+	db	$3f
+	db	$ff
+subrutina1$:
+	db	$d8,$c,$14
+	db	$d5,$70
+	db	$dc,$24
+	db	$70
+	db	$dc,$14
+	db	$c0
+	db	$dc,$24
+	db	$c0
+	db	$dc,$14
+	db	$d4,$30
+	db	$dc,$24
+	db	$30
+	db	$ff
+subrutina3$:
+	db	$dc,$14
+	db	$d5,$70
+	db	$dc,$24
+	db	$70
+	db	$dc,$14
+	db	$b0
+	db	$dc,$24
+	db	$b0
+	db	$dc,$14
+	db	$d4,$20
+	db	$dc,$24
+	db	$20
+	db	$ff
+
+
