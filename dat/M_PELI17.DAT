@@ -1,0 +1,365 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	m_pelicula17
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	muspelicula17
+;muspelicula17:
+	db	0c0h
+	dw	m_pelicula171
+	db	001h
+	dw	m_pelicula172
+	db	002h
+	dw	m_pelicula173
+	db	003h
+	dw	m_pelicula174
+;----------------------------------------
+m_pelicula171:
+;----------------------------------------
+	db	$da,$00,$b8
+	db	$e5,$77
+	db	$ef,$f0
+	db	$e6,$00,$02
+	db	$db,$01
+; P1-1
+	db	$d8,$c,$b2
+	db	$d5,$11
+	db	$51
+	db	$a1
+	db	$11
+	db	$da,$00,$b0
+	db	$51
+	db	$a1
+	db	$11
+	db	$51
+; P1-2
+	db	$da,$00,$a8
+	db	$11
+	db	$61
+	db	$91
+	db	$11
+	db	$da,$00,$a1
+	db	$61
+	db	$91
+	db	$11
+	db	$61
+; P1-3
+	db	$da,$00,$99
+	db	$11
+	db	$51
+	db	$a1
+	db	$11
+	db	$da,$00,$91
+	db	$51
+	db	$a1
+	db	$11
+	db	$51
+; P1-4
+	db	$da,$00,$8a
+	db	$11
+	db	$61
+	db	$91
+	db	$11
+	db	$da,$00,$82
+	db	$61
+	db	$91
+	db	$11
+	db	$61
+; P1-5
+	db	$da,$00,$7b
+	db	$11
+	db	$51
+	db	$a1
+	db	$11
+	db	$da,$00,$73
+	db	$51
+	db	$a1
+	db	$11
+	db	$51
+; P1-6
+	db	$da,$00,$6b
+	db	$11
+	db	$61
+	db	$91
+	db	$11
+	db	$da,$00,$64
+	db	$61
+	db	$91
+	db	$11
+	db	$61
+; P1-7
+	db	$da,$00,$b8
+	db	$ef,$ff
+	db	$e6,$00,$00
+	db	$d8,$3,$17
+	db	$d3,$a0
+	db	$90
+	db	$dc,$27
+	db	$80
+	db	$70
+	db	$dc,$37
+	db	$60
+	db	$50
+	db	$dc,$47
+	db	$40
+	db	$30
+	db	$dc,$57
+	db	$20
+	db	$10
+	db	$dc,$67
+	db	$d4,$c0
+	db	$b0
+	db	$dc,$77
+	db	$a0
+	db	$90
+	db	$dc,$87
+	db	$80
+	db	$70
+	db	$dc,$97
+	db	$60
+	db	$50
+	db	$dc,$87
+	db	$40
+	db	$30
+	db	$dc,$77
+	db	$20
+	db	$10
+	db	$dc,$67
+	db	$d5,$c0
+	db	$b0
+	db	$dc,$57
+	db	$a0
+	db	$90
+	db	$dc,$47
+	db	$80
+	db	$70
+	db	$dc,$37
+	db	$60
+	db	$50
+	db	$40
+	db	$dc,$27
+	db	$30
+	db	$20
+	db	$10
+	db	$dc,$17
+	db	$d6,$c0
+	db	$b0
+	db	$a0
+	db	$90
+	db	$ff
+;----------------------------------------
+m_pelicula172:
+;----------------------------------------
+	db	$db,$03
+	db	$ef,$ff
+bucle1_2$:
+; P1-1
+	db	$d8,$3,$d3
+	db	$d7,$a9
+	db	$01
+	db	$d6,$56
+	db	$00
+	db	$52
+	db	$00
+	db	$dc,$d8
+	db	$57
+	db	$dc,$c3
+	db	$54
+	db	$02
+	db	$dc,$d3
+	db	$d7,$aa
+	db	$00
+	db	$8a
+	db	$00
+; P1-2
+	db	$69
+	db	$01
+	db	$d6,$16
+	db	$00
+	db	$12
+	db	$00
+	db	$dc,$d8
+	db	$17
+	db	$dc,$c3
+	db	$13
+	db	$03
+	db	$dc,$d3
+	db	$d7,$67
+	db	$87
+	db	$97
+; P2-3
+	db	$fd,3
+	dw	bucle1_2$
+; P2-5
+; P2-7
+	db	$dc,$17
+	db	$d3,$50
+	db	$40
+	db	$dc,$27
+	db	$30
+	db	$20
+	db	$dc,$37
+	db	$10
+	db	$d4,$c0
+	db	$dc,$47
+	db	$b0
+	db	$a0
+	db	$dc,$57
+	db	$90
+	db	$80
+	db	$dc,$67
+	db	$70
+	db	$60
+	db	$dc,$77
+	db	$50
+	db	$40
+	db	$dc,$87
+	db	$30
+	db	$20
+	db	$dc,$97
+	db	$10
+	db	$d5,$c0
+	db	$dc,$87
+	db	$b0
+	db	$a0
+	db	$dc,$77
+	db	$90
+	db	$80
+	db	$dc,$67
+	db	$70
+	db	$60
+	db	$dc,$57
+	db	$50
+	db	$40
+	db	$dc,$47
+	db	$30
+	db	$20
+	db	$dc,$37
+	db	$10
+	db	$d6,$c0
+	db	$b0
+	db	$dc,$27
+	db	$a0
+	db	$90
+	db	$80
+	db	$dc,$17
+	db	$70
+	db	$60
+	db	$50
+	db	$40
+	db	$ff
+;----------------------------------------
+m_pelicula173:
+;----------------------------------------
+	db	$ef,$0f
+	db	$e6,$00,$01
+	db	$d8,$3,$14
+bucle1_2$:
+; P3-1
+	db	$d4,$a7
+	db	$d3,$57
+	db	$37
+	db	$57
+	db	$17
+	db	$57
+	db	$d4,$c7
+	db	$d3,$17
+; P3-2
+	db	$d4,$67
+	db	$d3,$17
+	db	$d4,$b7
+	db	$d3,$17
+	db	$d4,$97
+	db	$d3,$17
+	db	$d4,$87
+	db	$97
+; P3-3
+	db	$fd,3
+	dw	bucle1_2$
+; P3-4
+; P3-5
+; P3-6
+; P3-7
+	db	$e6,$00,$00
+	db	$ef,$ff
+	db	$dc,$33
+	db	$d2,$10
+	db	$d3,$c0
+	db	$b0
+	db	$a0
+	db	$dc,$23
+	db	$90
+	db	$80
+	db	$70
+	db	$60
+	db	$50
+	db	$40
+	db	$30
+	db	$20
+	db	$dc,$13
+	db	$10
+	db	$d4,$c0
+	db	$90
+	db	$80
+	db	$70
+	db	$60
+	db	$50
+	db	$40
+	db	$30
+	db	$20
+	db	$dc,$23
+	db	$10
+	db	$d5,$c0
+	db	$b0
+	db	$a0
+	db	$90
+	db	$80
+	db	$70
+	db	$60
+	db	$50
+	db	$dc,$33
+	db	$40
+	db	$30
+	db	$20
+	db	$10
+	db	$d6,$c0
+	db	$90
+	db	$a0
+	db	$ff
+;----------------------------------------
+m_pelicula174:
+;----------------------------------------
+	db	$e3,$003
+bucle1_2$:
+; P4-1
+	db	$d8,$c
+	db	$12
+	db	$20
+	db	$41
+	db	$21
+	db	$31
+	db	$21
+	db	$41
+	db	$21
+; P4-2
+	db	$12
+	db	$20
+	db	$41
+	db	$21
+	db	$31
+	db	$21
+	db	$40
+	db	$50
+	db	$51
+; P4-3
+	db	$fd,3
+	dw	bucle1_2$
+; P4-5
+; P4-7
+	db	$ff
+
+

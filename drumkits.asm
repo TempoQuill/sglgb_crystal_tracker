@@ -3,6 +3,9 @@ Drumkits:
 	dw Drumkit0 ; Intro / Sleepy Rock / Credits
 	dw Drumkit1 ; Surely Wood / Fiesta City / Ye Olde Bounty / Snowy Cabin
 	dw Drumkit2 ; Galactical Galaxies
+	dw Drumkit3 ; Continue
+	dw Drumkit0
+	dw Drumkit0
 
 Drumkit0:
 	dw Silence
@@ -168,4 +171,26 @@ HihatPitch_Click:
 	noise_note 33, 6, 1, 80
 	noise_note 32, 7, 1, 8
 	noise_note 32, 7, 1, 0
+	sound_ret
+
+Drumkit3:
+	dw Silence
+	dw Click_Kick
+	dw Kick
+	dw Click
+	dw Click_Snare
+	dw Silence
+	dw Silence
+	dw Silence
+	dw Silence
+	dw Silence
+	dw Silence
+	dw Silence
+	dw Silence
+
+Click_Snare:
+	noise_note 33, 6, 1, 51
+	noise_note 34, 7, 1, 35
+	noise_note 32, 1, 1, 39
+	noise_note 32, 0, 0, 0
 	sound_ret
