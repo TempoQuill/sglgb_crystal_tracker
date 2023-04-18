@@ -1,0 +1,761 @@
+;	include	group.def
+;bank7e	group	G_MUSIC1
+	;
+	;	pirata_gato
+	;
+	;	Convirtiendo en ??? ??? ??:??:?? 1995
+	;
+	;				por ver 1.01
+	;
+;	public	musantigua
+;musantigua:
+	db	00h
+	dw	m_antigua1
+	db	00h
+	dw	m_antigua2
+	db	00h
+	dw	m_antigua3
+	db	00h
+	dw	m_antigua4
+;----------------------------------------
+m_antigua1:
+;----------------------------------------
+	db	$da,$00,$95
+	db	$e5,$77
+bucle1_8$:
+	db	$db,$02
+	db	$ef,$0f
+; P1-1
+	db	$d8,$c,$91
+	db	$fe
+	dw	subrutina1_3$
+; P1-4
+	db	$01
+	db	$43
+	db	$43
+	db	$53
+	db	$51
+; P1-5
+	db	$fe
+	dw	subrutina1_3$
+; P1-8
+	db	$01
+	db	$43
+	db	$53
+	db	$53
+	db	$51
+; P1-9
+	db	$fd,2
+	dw	bucle1_8$
+bucle$:
+; P1-17
+	db	$d9,$00
+	db	$fe
+	dw	subrutina17_32$
+; P1-33
+	db	$d9,$05
+	db	$fe
+	dw	subrutina17_32$
+; P1-49
+	db	$fc
+	dw	bucle$
+subrutina1_3$:
+; P1-1
+	db	$01
+	db	$d5,$53
+	db	$53
+	db	$53
+	db	$51
+; P1-2
+	db	$01
+	db	$43
+	db	$43
+	db	$43
+	db	$41
+; P1-3
+	db	$01
+	db	$53
+	db	$53
+	db	$53
+	db	$51
+	db	$ff
+subrutina17_32$:
+	db	$db,$03
+	db	$ef,$ff
+; P1-17
+	db	$d8,$3,$c6
+	db	$d5,$9f
+	db	$d4,$2b
+	db	$43
+	db	$54
+	db	$02
+	db	$53
+	db	$03
+	db	$53
+	db	$43
+	db	$25
+	db	$01
+; P1-18
+	db	$d5,$7f
+	db	$cb
+	db	$d4,$23
+	db	$47
+	db	$54
+	db	$02
+	db	$73
+	db	$53
+	db	$46
+	db	$00
+; P1-19
+	db	$d5,$9f
+	db	$d4,$2b
+	db	$43
+	db	$52
+	db	$04
+	db	$52
+	db	$04
+	db	$53
+	db	$43
+	db	$27
+; P1-20
+	db	$47
+	db	$d5,$c7
+	db	$97
+	db	$77
+	db	$9d
+	db	$01
+	db	$d8,$6,$c6
+	db	$98
+; P1-21	-aten
+	db	$02
+	db	$d8,$3,$c6
+	db	$97
+	db	$d4,$2b
+	db	$43
+	db	$54
+	db	$02
+	db	$53
+	db	$03
+	db	$53
+	db	$43
+	db	$27
+; P1-22
+	db	$47
+	db	$d5,$c7
+	db	$7f
+	db	$d4,$4b
+	db	$23
+	db	$d5,$c3
+	db	$d4,$23
+	db	$47
+; P1-23
+	db	$d5,$9f
+	db	$d4,$2b
+	db	$43
+	db	$57
+	db	$47
+	db	$53
+	db	$43
+	db	$27
+; P1-24
+	db	$47
+	db	$27
+	db	$d5,$c7
+	db	$77
+	db	$9e
+	db	$00
+	db	$9b
+	db	$0b
+; P1-25	-aten
+	db	$d4,$23
+	db	$43
+	db	$56
+	db	$00
+	db	$77
+	db	$91
+	db	$01
+	db	$a3
+	db	$93
+	db	$73
+	db	$d8,$6,$c6
+	db	$99
+; P1-26	-aten
+	db	$01
+	db	$d8,$3,$c6
+	db	$d5,$c3
+	db	$d4,$23
+	db	$47
+	db	$57
+	db	$73
+	db	$93
+	db	$73
+	db	$53
+	db	$7f
+; P1-27
+	db	$07
+	db	$23
+	db	$43
+	db	$57
+	db	$77
+	db	$93
+	db	$a3
+	db	$93
+	db	$73
+	db	$9f
+; P1-28
+	db	$d3,$47
+	db	$d4,$c7
+	db	$97
+	db	$77
+	db	$5c
+	db	$02
+	db	$5d
+	db	$09
+; P1-29	-aten
+	db	$23
+	db	$43
+	db	$57
+	db	$77
+	db	$93
+	db	$a3
+	db	$93
+	db	$73
+	db	$d8,$6,$c6
+	db	$98
+; P1-30	-aten
+	db	$02
+	db	$d8,$3,$c6
+	db	$d5,$c3
+	db	$d4,$23
+	db	$47
+	db	$57
+	db	$73
+	db	$93
+	db	$73
+	db	$53
+	db	$7d
+	db	$09
+; P1-31	-aten
+	db	$23
+	db	$43
+	db	$57
+	db	$77
+	db	$93
+	db	$a3
+	db	$93
+	db	$73
+	db	$9f
+; P1-32
+	db	$a7
+	db	$97
+	db	$76
+	db	$00
+	db	$47
+	db	$5c
+	db	$02
+	db	$5f
+	db	$ff
+;----------------------------------------
+m_antigua2:
+;----------------------------------------
+	db	$ef,$0f
+	db	$db,$01
+; P2-1
+	db	$fe
+	dw	melodia1_16$
+bucle$:
+	db	$d9,$00
+; P2-17
+	db	$fe
+	dw	melodia1_16$
+; P2-33
+	db	$d9,$05
+	db	$fe
+	dw	melodia1_16$
+; P2-49
+	db	$fc
+	dw	bucle$
+melodia1_16$:
+; P2-1
+	db	$d8,$3,$d2
+	db	$d3,$92
+	db	$04
+	db	$92
+	db	$00
+	db	$92
+	db	$00
+	db	$93
+	db	$03
+	db	$92
+	db	$00
+	db	$92
+	db	$00
+	db	$95
+	db	$01
+	db	$53
+	db	$03
+	db	$27
+	db	$54
+	db	$02
+; P2-2
+	db	$72
+	db	$04
+	db	$71
+	db	$01
+	db	$72
+	db	$00
+	db	$72
+	db	$04
+	db	$71
+	db	$01
+	db	$71
+	db	$01
+	db	$73
+	db	$03
+	db	$45
+	db	$01
+	db	$d4,$c7
+	db	$d3,$43
+	db	$03
+; P2-3
+	db	$92
+	db	$04
+	db	$91
+	db	$01
+	db	$92
+	db	$00
+	db	$92
+	db	$04
+	db	$92
+	db	$00
+	db	$92
+	db	$00
+	db	$94
+	db	$02
+	db	$53
+	db	$03
+	db	$27
+	db	$53
+	db	$03
+; P2-4
+	db	$75
+	db	$01
+	db	$43
+	db	$03
+	db	$23
+	db	$03
+	db	$d4,$c3
+	db	$03
+	db	$d3,$2c
+	db	$02
+	db	$2a
+	db	$04
+; P2-5
+	db	$92
+	db	$04
+	db	$92
+	db	$00
+	db	$92
+	db	$00
+	db	$92
+	db	$04
+	db	$91
+	db	$01
+	db	$91
+	db	$01
+	db	$94
+	db	$02
+	db	$54
+	db	$02
+	db	$27
+	db	$54
+	db	$02
+; P2-6
+	db	$72
+	db	$04
+	db	$71
+	db	$01
+	db	$72
+	db	$00
+	db	$72
+	db	$04
+	db	$72
+	db	$00
+	db	$71
+	db	$01
+	db	$74
+	db	$02
+	db	$46
+	db	$00
+	db	$d4,$c7
+	db	$d3,$42
+	db	$04
+; P2-7
+	db	$93
+	db	$03
+	db	$91
+	db	$01
+	db	$92
+	db	$00
+	db	$92
+	db	$04
+	db	$92
+	db	$00
+	db	$92
+	db	$00
+	db	$94
+	db	$02
+	db	$b4
+	db	$02
+	db	$c5
+	db	$01
+	db	$d2,$25
+	db	$01
+; P2-8
+	db	$d3,$c4
+	db	$02
+	db	$95
+	db	$01
+	db	$74
+	db	$02
+	db	$44
+	db	$02
+	db	$2b
+	db	$03
+	db	$2a
+	db	$04
+; P2-9
+	db	$9b
+	db	$03
+	db	$9a
+	db	$04
+	db	$96
+	db	$00
+	db	$23
+	db	$53
+	db	$93
+	db	$03
+	db	$93
+	db	$03
+; P2-10
+	db	$7a
+	db	$04
+	db	$7a
+	db	$04
+	db	$75
+	db	$01
+	db	$d4,$c3
+	db	$d3,$43
+	db	$72
+	db	$04
+	db	$73
+	db	$03
+; P2-11
+	db	$9b
+	db	$03
+	db	$9a
+	db	$04
+	db	$96
+	db	$00
+	db	$22
+	db	$00
+	db	$53
+	db	$92
+	db	$04
+	db	$92
+	db	$04
+; P2-12
+	db	$74
+	db	$02
+	db	$44
+	db	$02
+	db	$24
+	db	$02
+	db	$d4,$c3
+	db	$03
+	db	$d3,$2b
+	db	$03
+	db	$2a
+	db	$04
+; P2-13
+	db	$9b
+	db	$03
+	db	$9a
+	db	$04
+	db	$96
+	db	$00
+	db	$23
+	db	$53
+	db	$92
+	db	$04
+	db	$92
+	db	$04
+; P2-14
+	db	$7b
+	db	$03
+	db	$7a
+	db	$04
+	db	$76
+	db	$00
+	db	$d4,$c3
+	db	$d3,$43
+	db	$72
+	db	$04
+	db	$73
+	db	$03
+; P2-15
+	db	$9b
+	db	$03
+	db	$9a
+	db	$04
+	db	$93
+	db	$03
+	db	$b3
+	db	$03
+	db	$c3
+	db	$03
+	db	$d2,$24
+	db	$02
+; P2-16
+	db	$d3,$c5
+	db	$01
+	db	$94
+	db	$02
+	db	$74
+	db	$02
+	db	$44
+	db	$02
+	db	$2a
+	db	$04
+	db	$2f
+	db	$ff
+;----------------------------------------
+m_antigua3:
+;----------------------------------------
+; P3-1
+	db	$fe
+	dw	bajo1_8$
+; P3-9
+	db	$fe
+	dw	bajo1_8$
+bucle$:
+	db	$d9,$00
+; P3-17
+	db	$fe
+	dw	bajo1_8$
+; P3-25
+	db	$fe
+	dw	bajo1_8$
+; P3-33
+	db	$d9,$05
+	db	$fe
+	dw	bajo1_8$
+; P3-41
+	db	$fe
+	dw	bajo1_8$
+; P3-49
+	db	$fc
+	dw	bucle$
+bajo1_8$:
+bucle1$:
+	db	$ef,$ff
+; P3-1
+	db	$d8,$c,$10
+	db	$d6,$20
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$fd,2
+	dw	bucle1$
+; P3-2
+bucle2$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d7,$c0
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$70
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$fd,2
+	dw	bucle2$
+; P3-3
+bucle3$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$20
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$fd,2
+	dw	bucle3$
+; P3-4
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c0
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$70
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+bucle4$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$20
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+; P3-5
+	db	$fd,3
+	dw	bucle4$
+; P3-6
+bucle6$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c0
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$70
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$fd,2
+	dw	bucle6$
+; P3-7
+bucle7$:
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$20
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$fd,2
+	dw	bucle7$
+; P3-8
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$c0
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$70
+	db	$c0
+	db	$70
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$20
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ef,$ff
+	db	$dc,$10
+	db	$d6,$90
+	db	$ef,$0f
+	db	$dc,$14
+	db	$d5,$90
+	db	$d4,$20
+	db	$d5,$90
+	db	$ff
+;----------------------------------------
+m_antigua4:
+;----------------------------------------
+	db	$e3,$003
+bucle$:
+	db	$d8,$c
+	db	$fe
+	dw	tambon$
+	db	$ef,$0f
+	db	$73
+	db	$fd,2
+	dw	bucle$
+	db	$fe
+	dw	tambon$
+	db	$53
+	db	$fe
+	dw	tambon$
+	db	$ef,$0f
+	db	$73
+	db	$fc
+	dw	bucle$
+tambon$:
+	db	$ef,$ff
+	db	$23
+	db	$ef,$0f
+	db	$73
+	db	$ef,$ff
+	db	$53
+	db	$ff
+
+

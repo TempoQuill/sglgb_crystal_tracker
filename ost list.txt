@@ -5,10 +5,10 @@
 4.	+	GALAXIA		Galactical Galaxies
 5.	+	ESPACIO		Galactical Galaxies Boss
 6.	+	M_MADERA	Surely Wood
-7.		M_SAGURA	Surely Wood Boss
+7.	+	M_SAGURA	Surely Wood Boss
 8.	+	M_CIUDAD	Party City
 9.	+	GENEROSI	Ye Olde Bounty
-10.		ANTIGUA		Ye Olde Bounty Boss
+10.	+	ANTIGUA		Ye Olde Bounty Boss
 11.	+	M_PELI11	Introduction
 12.	+	M_PELI12	Score Tally
 13.	+	M_PELI13	Title
