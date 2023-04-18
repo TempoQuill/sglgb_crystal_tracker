@@ -3,7 +3,7 @@
 2.	+	TORREON		Ancient Keep
 3.	+	CABANYA		Snowy Cabin
 4.	+	GALAXIA		Galactical Galaxies
-5.		ESPACIO		Galactical Galaxies Boss
+5.	+	ESPACIO		Galactical Galaxies Boss
 6.	+	M_MADERA	Surely Wood
 7.		M_SAGURA	Surely Wood Boss
 8.	+	M_CIUDAD	Party City

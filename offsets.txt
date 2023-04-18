@@ -12,8 +12,9 @@
 03:77ef	Game Over
 03:7901	Credits
 03:7c85	Continue
-03:7e44
+03:7e46
 04:4000	(GSC) Tour
 04:4213	(GSC) Lavender Town
 04:44b5	(GSC) SS Aqua
-04:4c59	
+04:4c59	Space Cat
+04:4e87
