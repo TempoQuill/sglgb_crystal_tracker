@@ -180,8 +180,8 @@ Drumkit3:
 	dw Click
 	dw Click_Snare
 	dw Snare
-	dw Silence
-	dw Silence
+	dw Hihat
+	dw Hihat_Soft
 	dw Silence
 	dw Silence
 	dw Silence
@@ -193,4 +193,8 @@ Click_Snare:
 	noise_note 34, 7, 1, 35
 	noise_note 32, 1, 1, 39
 	noise_note 32, 0, 0, 0
+	sound_ret
+
+Hihat_Soft:
+	noise_note 32, 5, 1, 5
 	sound_ret
