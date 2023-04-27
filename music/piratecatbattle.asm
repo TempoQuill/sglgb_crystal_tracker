@@ -733,7 +733,7 @@ Music_PirateCatBattle_Ch3:
 Music_PirateCatBattle_Ch4:
 	toggle_noise 3
 .mainloop:
-	drum_speed 12
+	drum_speed 3
 	sound_call .sub1
 	stereo_panning FALSE, TRUE
 	drum_note 7, 4

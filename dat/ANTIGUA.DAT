@@ -733,7 +733,7 @@ m_antigua4:
 ;----------------------------------------
 	db	$e3,$003
 bucle$:
-	db	$d8,$c
+	db	$d8,$3
 	db	$fe
 	dw	tambon$
 	db	$ef,$0f
