@@ -20,3 +20,5 @@ cd 4d	Silence
 8f 4e	Snare + Kick
 9c 4e	Hihat (open)
 ba 4e	Hihat (pitched) + Click
+de 4e	Click + Snare
+eb 4e	Hihat (soft)

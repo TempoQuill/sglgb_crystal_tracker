@@ -1485,7 +1485,7 @@ Music_AncientKeep_Ch3:
 	octave 4
 	note D_, 1
 	sound_loop 4, .loop5
-.loop6
+.loop6:
 	octave 3
 	note A#, 1
 	octave 4

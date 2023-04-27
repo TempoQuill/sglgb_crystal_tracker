@@ -655,7 +655,7 @@ Music_SurelyWood_Ch2:
 
 Music_SurelyWood_Ch3:
 	stereo_panning TRUE, TRUE
-	note_type 6, 1, 0
+	note_type 6, 1, 2
 	sound_call .sub1
 	sound_call .sub1
 .loop1:
