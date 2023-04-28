@@ -1,22 +1,22 @@
-03:4000	Introduction
-03:446e	Surely Wood
-03:4872	Fiesta City
-03:4ce0	Snowy Cabin
-03:5121	Galactical Galaxies
-03:5669	Ye Olde Bounty
-03:5f0a	Sleepy Rock
-03:69fc	Ancient Keep
-03:7179	The Merry Go Round Broke Down
-03:745d	Score Tally
-03:75f6	Rescate de Speedy
-03:77ef	Game Over
-03:7901	Credits
-03:7c85	Continue
-03:7e46
-04:4000	(GSC) Tour
-04:4213	(GSC) Lavender Town
-04:44b5	(GSC) SS Aqua
-04:4c59	Space Cat
-04:4e87	Woods Cat
-04:509c	Pirate Cat
-04:5429
+02:4000		Introduction
+02:446e		Surely Wood
+02:4872		Fiesta City
+02:4ce0		Snowy Cabin
+02:5121		Galactical Galaxies
+02:5669		Ye Olde Bounty
+02:5f0a		Sleepy Rock
+02:69fc		Ancient Keep
+02:7179		The Merry Go Round Broke Down
+02:745d		Score Tally
+02:75f6		Rescate de Speedy
+02:77ef		Game Over
+02:7901		Credits
+02:7c85		Continue
+02:7e46-7ffd	SFX
+03:4000		(GSC) Tour
+03:4213		(GSC) Lavender Town
+03:44b5		(GSC) SS Aqua
+03:4c59		Space Cat
+03:4e87		Woods Cat
+03:509c		Pirate Cat
+03:5429-59c7	SFX
