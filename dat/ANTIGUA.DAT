@@ -9,13 +9,13 @@
 	;
 ;	public	musantigua
 ;musantigua:
-	db	00h
+	db	0c0h
 	dw	m_antigua1
-	db	00h
+	db	001h
 	dw	m_antigua2
-	db	00h
+	db	002h
 	dw	m_antigua3
-	db	00h
+	db	003h
 	dw	m_antigua4
 ;----------------------------------------
 m_antigua1:
