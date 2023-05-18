@@ -1,24 +1,28 @@
-cd 4d	Silence
-d1 4d	Kick
-d8 4d	Click
-df 4d	Click + Kick
-e9 4d	Shaker
-f0 4d	Shaker + Kick
-fa 4d	Shaker + Click
-cd 4d	Silence
-04 4e	Hihat
-08 4e	Hihat + Kick
-0f 4e	Hihat + Click
-16 4e	Crash
-26 4e	Hihat + Shaker
-47 4e	Hihat (pitched)
-51 4e	Hihat (pitched) + Kick
-5b 4e	Crash + Kick
-6b 4e	Snare
-78 4e	Hihat + Snare
-7f 4e	Hihat (pitched) + Snare
-8f 4e	Snare + Kick
-9c 4e	Hihat (open)
-ba 4e	Hihat (pitched) + Click
-de 4e	Click + Snare
-eb 4e	Hihat (soft)
+.gbs	.gbc
+b3 4d	3e 4e
+cd 4d	58 4e	Silence
+d1 4d	5c 4e	Kick
+d8 4d	63 4e	Click
+df 4d	6a 4e	Click + Kick
+e9 4d	74 4e	Shaker
+f0 4d	7b 4e	Shaker + Kick
+fa 4d	85 4e	Shaker + Click
+04 4e	8f 4e	Hihat
+08 4e	93 4e	Hihat + Kick
+0f 4e	9a 4e	Hihat + Click
+16 4e	a1 4e	Crash
+26 4e	b1 4e	Hihat + Shaker
+2d 4e	b8 4e
+47 4e	d2 4e	Hihat (pitched)
+51 4e	dc 4e	Hihat (pitched) + Kick
+5b 4e	e6 4e	Crash + Kick
+6b 4e	f6 4e	Snare
+78 4e	03 4f	Hihat + Snare
+7f 4e	0a 4f	Hihat (pitched) + Snare
+8f 4e	1a 4f	Snare + Kick
+9c 4e	27 4f	Hihat (open)
+a0 4e	2b 4f
+ba 4e	45 4f	Hihat (pitched) + Click
+c4 4e	4f 4f
+de 4e	69 4f	Click + Snare
+eb 4e	76 4f	Hihat (soft)

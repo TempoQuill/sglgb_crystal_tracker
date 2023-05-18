@@ -13,13 +13,13 @@
 12	Swipe			02 4b 7f	14
 13	Mouse Trap		02 6a 7f	4
 14	Cheese			02 7d 7f	1
-15	Boot Spring		02 8f 7f	1
-16	Clock			02 d3 7f	1
+15	Clock			02 d3 7f	1
+16	Boot			02 8f 7f	1
 17	Pumpkin Frog		03 29 54	4
-18	Bat Screech		03 3d 54	14
-19	Bat Flap		02 f1 7f	4
-20	Damage			03 56 54	1
-21	Vent			03 a0 54	4
+18	Vent			03 a0 54	4
+19	Bat Screech		03 3d 54	14
+20	Bat Flap		02 f1 7f	4
+21	Damage			03 56 54	1
 22	Extra Heart		03 aa 54	1
 23	Heal			03 ad 54	1
 24	Platform Falling	03 da 54	1
