@@ -846,7 +846,7 @@ Music_Introduction_Ch3:
 	note C#, 4
 	octave 3
 	note F_, 1
-	note_type 3, 2, 6
+	note_type 3, 2, 0
 	note E_, 1
 	note D#, 1
 	note D_, 1
@@ -862,11 +862,11 @@ Music_Introduction_Ch3:
 	note F_, 1
 	note E_, 1
 	note D#, 1
-	note_type 6, 1, 6
+	note_type 6, 1, 0
 	note F_, 8
-	volume_envelope 2, 6
+	volume_envelope 2, 0
 	note F_, 8
-	volume_envelope 3, 6
+	volume_envelope 3, 0
 	note F_, 8
 	sound_jump Music_Introduction_Ch3
 
