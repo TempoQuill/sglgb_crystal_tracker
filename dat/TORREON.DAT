@@ -976,7 +976,7 @@ bucle5_20$:
 	db	$81
 	db	$a1
 	db	$5d
-; P3-6  	-aten
+; P3-6  	-ligadura
 	db	$13
 	db	$33
 	db	$53
@@ -992,7 +992,7 @@ bucle5_20$:
 	db	$51
 	db	$61
 	db	$3d
-; P3-10  	-aten
+; P3-10  	-ligadura
 	db	$d4,$c3
 	db	$d3,$13
 	db	$33
@@ -1008,7 +1008,7 @@ bucle5_20$:
 	db	$81
 	db	$61
 	db	$6d
-; P3-14  	-aten
+; P3-14  	-ligadura
 	db	$63
 	db	$83
 	db	$a3
@@ -1024,7 +1024,7 @@ bucle5_20$:
 	db	$81
 	db	$a1
 	db	$6d
-; P3-18  	-aten
+; P3-18  	-ligadura
 	db	$a1
 	db	$c1
 	db	$d2,$13
@@ -1035,7 +1035,7 @@ bucle5_20$:
 	db	$a1
 	db	$c1
 	db	$9d
-; P3-20  	-aten
+; P3-20  	-ligadura
 	db	$c3
 	db	$d2,$33
 	db	$11
@@ -1317,7 +1317,7 @@ bucle62_2$:
 	db	$a0
 	db	$50
 	db	$a2
-; P3-64  	-aten
+; P3-64  	-ligadura
 	db	$d4,$51
 	db	$61
 	db	$81

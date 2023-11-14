@@ -126,7 +126,7 @@ subrutina17_32$:
 	db	$01
 	db	$d8,$6,$c6
 	db	$98
-; P1-21	-aten
+; P1-21	-ligadura
 	db	$02
 	db	$d8,$3,$c6
 	db	$97
@@ -166,7 +166,7 @@ subrutina17_32$:
 	db	$00
 	db	$9b
 	db	$0b
-; P1-25	-aten
+; P1-25	-ligadura
 	db	$d4,$23
 	db	$43
 	db	$56
@@ -179,7 +179,7 @@ subrutina17_32$:
 	db	$73
 	db	$d8,$6,$c6
 	db	$99
-; P1-26	-aten
+; P1-26	-ligadura
 	db	$01
 	db	$d8,$3,$c6
 	db	$d5,$c3
@@ -211,7 +211,7 @@ subrutina17_32$:
 	db	$02
 	db	$5d
 	db	$09
-; P1-29	-aten
+; P1-29	-ligadura
 	db	$23
 	db	$43
 	db	$57
@@ -222,7 +222,7 @@ subrutina17_32$:
 	db	$73
 	db	$d8,$6,$c6
 	db	$98
-; P1-30	-aten
+; P1-30	-ligadura
 	db	$02
 	db	$d8,$3,$c6
 	db	$d5,$c3
@@ -235,7 +235,7 @@ subrutina17_32$:
 	db	$53
 	db	$7d
 	db	$09
-; P1-31	-aten
+; P1-31	-ligadura
 	db	$23
 	db	$43
 	db	$57

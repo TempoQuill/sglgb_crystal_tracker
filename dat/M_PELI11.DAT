@@ -34,7 +34,7 @@ bucle$:
 	db	$60
 	db	$41
 	db	$32
-; P1-2	-aten
+; P1-2	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina2$
@@ -46,19 +46,19 @@ bucle$:
 	db	$d6,$b0
 	db	$a1
 	db	$b2
-; P1-4	-aten
+; P1-4	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina4$
 	db	$d6,$b1
-; P1-5	-aten
+; P1-5	-ligadura
 	db	$00
 	db	$d5,$32
 	db	$41
 	db	$63
 	db	$42
 	db	$32
-; P1-6	-aten
+; P1-6	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina2$
@@ -69,12 +69,12 @@ bucle$:
 	db	$d5,$12
 	db	$d6,$b2
 	db	$a2
-; P1-8	-aten
+; P1-8	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina4$
 	db	$d6,$b1
-; P1-9	-aten
+; P1-9	-ligadura
 	db	$00
 	db	$d5,$32
 	db	$41
@@ -101,7 +101,7 @@ bucle$:
 	db	$fe
 	dw	subrutina4$
 	db	$d6,$b1
-; P1-13	-aten
+; P1-13	-ligadura
 	db	$00
 	db	$c2
 	db	$d5,$11
@@ -109,7 +109,7 @@ bucle$:
 	db	$11
 	db	$d6,$c1
 	db	$d5,$12
-; P1-14	-aten
+; P1-14	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina2$
@@ -124,7 +124,7 @@ bucle$:
 	db	$fe
 	dw	subrutina4$
 	db	$d6,$b1
-; P1-17	-aten
+; P1-17	-ligadura
 	db	$00
 	db	$fe
 	dw	subrutina17$

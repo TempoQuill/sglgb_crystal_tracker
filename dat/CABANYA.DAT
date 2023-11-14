@@ -665,7 +665,7 @@ bucle$:
 ; P3-3
 	db	$d3,$85
 	db	$5b
-; P3-4	-aten
+; P3-4	-ligadura
 	db	$dc,$33
 	db	$55
 ; P3-5

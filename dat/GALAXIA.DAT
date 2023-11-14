@@ -541,7 +541,7 @@ melodia17_64$:
 	db	$d4,$11
 	db	$30
 	db	$52
-; P2-22	-aten
+; P2-22	-ligadura
 	db	$60
 	db	$51
 	db	$32
@@ -595,7 +595,7 @@ melodia17_64$:
 	db	$40
 	db	$50
 	db	$11
-; P2-34	-aten
+; P2-34	-ligadura
 	db	$d4,$c0
 	db	$d3,$10
 	db	$d4,$a2
@@ -628,7 +628,7 @@ melodia17_64$:
 	db	$60
 	db	$80
 	db	$91
-; P2-40	-aten
+; P2-40	-ligadura
 	db	$80
 	db	$60
 	db	$91
@@ -657,7 +657,7 @@ melodia17_64$:
 	db	$a0
 	db	$91
 	db	$71
-; P2-48	-aten
+; P2-48	-ligadura
 	db	$90
 	db	$a1
 	db	$c1

@@ -504,7 +504,7 @@ bucle$:
 	db	$31
 ; P3-20
 	db	$1f
-; P3-21 -aten
+; P3-21 -ligadura
 	db	$1b
 	db	$03
 ; P3-22

@@ -355,7 +355,7 @@ melodia17_24$:
 	db	$d4,$c1
 	db	$d8,$6,$e7
 	db	$d3,$1f
-; P2-20	-aten
+; P2-20	-ligadura
 	db	$0b
 ; P2-21
 	db	$d8,$3,$c5

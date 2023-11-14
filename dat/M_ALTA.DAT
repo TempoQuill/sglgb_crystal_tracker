@@ -41,7 +41,7 @@ bucle$:
 	db	$01
 	db	$d8,$c,$97
 	db	$81
-; P1-3 -aten
+; P1-3 -ligadura
 	db	$89
 	db	$03
 	db	$d8,$6,$97
@@ -56,7 +56,7 @@ bucle$:
 	db	$01
 	db	$d8,$c,$97
 	db	$81
-; P1-5 -aten
+; P1-5 -ligadura
 	db	$87
 	db	$07
 ; P1-6
@@ -247,7 +247,7 @@ bucle$:
 	db	$e1,$00,$00
 	db	$dc,$88
 	db	$89
-;      -aten
+;      -ligadura
 	db	$e1,$02,$23
 	db	$dc,$87
 	db	$88
@@ -459,7 +459,7 @@ bucle$:
 	db	$e1,$00,$00
 	db	$dc,$98
 	db	$59
-;      -aten
+;      -ligadura
 	db	$e1,$04,$23
 	db	$dc,$97
 	db	$58
@@ -729,7 +729,7 @@ bucle$:
 	db	$01
 	db	$d8,$c,$10
 	db	$81
-; P3-3 -aten
+; P3-3 -ligadura
 	db	$89
 	db	$03
 	db	$d8,$6,$10
@@ -744,7 +744,7 @@ bucle$:
 	db	$01
 	db	$d8,$c,$10
 	db	$81
-; P3-5 -aten
+; P3-5 -ligadura
 	db	$87
 	db	$dc,$14
 	db	$c0

@@ -185,7 +185,7 @@ m_pelicula131:
 	db	$67
 	db	$d8,$c,$b4
 	db	$8b
-; P1-9	-aten
+; P1-9	-ligadura
 	db	$ff
 ;----------------------------------------
 m_pelicula132:
@@ -319,7 +319,7 @@ m_pelicula132:
 	db	$33
 	db	$d8,$c,$d3
 	db	$5b
-; P2-9	-aten
+; P2-9	-ligadura
 	db	$ff
 ;----------------------------------------
 m_pelicula133:
@@ -512,7 +512,7 @@ m_pelicula133:
 	db	$03
 	db	$d8,$c,$10
 	db	$1b
-; P3-9	-aten
+; P3-9	-ligadura
 	db	$ff
 bajo1$:
 	db	$ef,$ff
